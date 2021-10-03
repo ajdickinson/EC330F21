@@ -28,11 +28,10 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 
   - __Lecture 02:__ Introduction to urban economics 
   
-    - [slides](https://raw.githubusercontent.com/ajdickinson/ec330-fall21/main/slides/001-intro/01-intro.html), [pdf]()
+    - [slides](ajdickinson.github.io/slides/001-intro/01-intro.html), [pdf](ajdickinson.github.io/slides/001-intro/01-intro.pdf)
     
     - Reading: Chapter 1 of TofC
 
   - __Lecture 03:__ EC201 Review + The 5 axioms of urban economics
-
-testing testing testing
+  
     - [slides]()

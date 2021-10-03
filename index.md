@@ -28,7 +28,7 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 
   - __Lecture 02:__ Introduction to urban economics 
   
-    - [slides](ajdickinson.github.io/ec330-fall21/slides/001-intro/01-intro/html), [pdf](ajdickinson.github.io/ec330-fall21/slides/001-intro/01-intro.pdf)
+    - [slides](slides/001-intro/01-intro/html), [pdf](ajdickinson.github.io/ec330-fall21/slides/001-intro/01-intro.pdf)
     
     - Reading: Chapter 1 of TofC
 

@@ -2,8 +2,7 @@
 
 Public slide repository for EC330: Urban Economics and Regional Studies by Andrew Dickinson at the University of Oregon.
 
-This README file includes all links to course materials including:
-
+Course material links:
   - [Syllabus](syllabus/syllabus.pdf)
   - Problem sets
 	- PS01 (not posted yet)
@@ -36,3 +35,7 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
   - __Lecture 03:__ EC201 Review + The 5 axioms of urban economics
 	- [slides](slides/002-review/02-review.html), [pdf](slides/002-review/02-review.pdf)
 	- Reading: Chapter 1 of TofC
+
+## Acknowledgements
+
+Much of this course material is derived from [John Morehouse's Urban course](https://github.com/johnmorehouse/EC330_UrbanEcon) and [Mike Urbancic's](https://twitter.com/Urbancic) course. 

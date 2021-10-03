@@ -167,7 +167,7 @@ I hope that you:
 
 --
 
-- Has passed EC-201 with at least .hi[some recollection] of the material
+- Have passed EC-201 with at least .hi[some recollection] of the material
 
 --
 
@@ -322,11 +322,11 @@ There are .hii[500] points total.  .hi[Your grade will be determined by:]
 
 --
 
-- 35%: Final Exam (1x): 175 points
+- 40%: Final Exam (1x): 200 points
 
 - 30%: Midterm Exam (1x): 150 points
 
-- 15%: Problem sets (4x): 31.25 points each
+- 25%: Problem sets (4x): 25 points each
 
 - 10%: Book Report (1x): 50 points
 
@@ -407,7 +407,7 @@ Required reading [Triumph of the City](https://www.amazon.com/Triumph-City-Great
 
 There will be .hi[4 problem sets] throughout the term:
 
-- Each one is worth .hii[6.25%] of your grade
+- Each one is worth .hii[5%] of your grade
 
 - You must submit a .hi[pdf] document on Canvas***
 
@@ -439,8 +439,6 @@ There will be .hi[4 problem sets] throughout the term:
   - Homework submission
   
   - Announcements
-  
-  - 
   
 --
 
@@ -664,75 +662,9 @@ The majority of the US population lives in cities<sup>.smallest[.hi-pink[†]]</
 Let's look at some data
 
 ---
-# Intro to Urban: Wages
-```{r westcoast_income, include=FALSE, echo=FALSE, message=F, cache=TRUE}
+class: inverse, center, middle
 
-income_cty <-  tidycensus::get_acs(
-  geography = "county", variables = "B19013_001",
-  state = c("WA", "OR", "CA"), geometry = TRUE
-)
-
-income_tct <-  tidycensus::get_acs(
-  geography = "tract", variables = "B19013_001",
-  state = "OR", geometry = TRUE
-)
-
-col_pal <- leaflet::colorQuantile(palette = "viridis", domain = income$estimate, n = 10)
-```
-
-
-
-
-```{r, wage_leaflet, echo=F, eval=FALSE}
-
-income_cty %>%
-  mutate(county = gsub(",.*", "", NAME)) %>% ## Get rid of everything after the first comma
-  st_transform(crs = "+init=epsg:4326") %>%
-  leaflet(width = "100%") %>%
-  addProviderTiles(provider = "CartoDB.Positron") %>%
-  addPolygons(
-    popup = ~paste0(county, "<br>", "HH Income: ", prettyNum(estimate, big.mark=",")),
-    stroke = FALSE,
-    smoothFactor = 0,
-    fillOpacity = 0.8,
-    color = ~col_pal(estimate)
-  ) %>%
-  addLegend(
-    "bottomright", 
-    pal = col_pal, 
-    values = ~estimate,
-    title = "Income percentiles",
-    opacity = 1
-  )
-
-```
-
----
-# Intro to Urban: Wages
-
-```{r, wage_leaflet2, echo=F, eval=FALSE}
-
-income_tct %>%
-  mutate(county = gsub(",.*", "", NAME)) %>% ## Get rid of everything after the first comma
-  st_transform(crs = "+init=epsg:4326") %>%
-  leaflet(width = "100%") %>%
-  addProviderTiles(provider = "CartoDB.Positron") %>%
-  addPolygons(
-    popup = ~paste0(county, "<br>", "HH Income: ", prettyNum(estimate, big.mark=",")),
-    stroke = FALSE,
-    smoothFactor = 0,
-    fillOpacity = 0.8,
-    color = ~col_pal(estimate)
-  ) %>%
-  addLegend(
-    "bottomright", 
-    pal = col_pal, 
-    values = ~estimate,
-    title = "Income percentiles",
-    opacity = 1
-  )
-
-```
+## [Data](https://ajdickinson.github.io/ec330-fall21/slides/001-intro/data.html)
 
 ---
 # Intro to Urban: Income & Population
@@ -875,7 +807,7 @@ In this class we will make use of various .hi[mathematical models]
 
 1. What is a .hi[mathematical model]?
 
-  - A model is a desciription of a system using .... .hi[math]
+  - A model is a description of a system using .... .hi[math]
   
   - Useful to help .hi[explain] and .hi[predict] behavior
 

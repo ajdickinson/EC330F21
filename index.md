@@ -5,11 +5,12 @@ Public slide repository for EC330: Urban Economics and Regional Studies by Andre
 This README file includes all links to course materials including:
 
   - [Syllabus](syllabus/syllabus.pdf)
-
   - Problem sets
-  
-  - TotC Rubric
-  
+	- PS01 (not posted yet)
+	- PS02 (not posted yet)
+	- PS03 (not posted yet)
+	- PS04 (not posted yet)
+  - TotC Rubric (not posted yet)
   - External resources
 	- [Triumph of the Cities](http://www.smart-city.institute/library/book/triumph_of_the_city.pdf)
 	- [Urban Economics (O'Sullivan)](resources/O'Sullivan_Urban_Economics_8th.pdf) 

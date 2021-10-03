@@ -6,11 +6,13 @@ This README file includes all links to course materials including:
 
   - [Syllabus](syllabus/syllabus.pdf)
 
-  - [Problem sets]()
+  - Problem sets
   
-  - [TotC Rubric]()
+  - TotC Rubric
   
-  - [External resources]()
+  - External resources
+	- [Triumph of the Cities](http://www.smart-city.institute/library/book/triumph_of_the_city.pdf)
+	- [Urban Economics (O'Sullivan)](resources/O'Sullivan_Urban_Economics_8th.pdf)
     
     - [TotC]() 
   

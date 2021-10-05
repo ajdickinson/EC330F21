@@ -116,7 +116,6 @@ theme_curves <- theme_ipsum() + theme(axis.line = element_line(),
 ```
 
 
-
 # Lecture 02: Review & The 5 Axioms of Urban Economics
 
 ---
@@ -146,43 +145,17 @@ name: schedule
 ]
 
 ---
-class:inverse
+class: inverse, middle
 name: ec201_review
 # Review
 
-Resources for more EC-201 review
-
-- [Khan academy](https://www.khanacademy.org/economics-finance-domain/microeconomics/basic-economic-concepts-gen-micro#economics-introduction)
-
----
-
-name:utility
-
-# Review 010: Utility
-
-.ul[.hi[Definitions:]]
-
-- .hi[Utility:] Satisfaction one receives from consuming a good or a service
-
-  - Ordinal not cardinal; only know order of preference not how much
-  
---
-
-- .hi[Utility function:] $U(x)$ A function that describes utility given from $x$
-  
---
-  
-- .hi[Marginal Utility:] Additional utility received from one additional good
-
---
-
-- .hi[The Law of Diminishing Marginal Utility:] Marginal utility decreases as one consumes more and more goods or services
+Resources for more EC-201 review: [Khan academy](https://www.khanacademy.org/economics-finance-domain/microeconomics/basic-economic-concepts-gen-micro#economics-introduction)
 
 ---
 name:demand
 # Review 011: Demand
 
-.hi[Definition:] The relationship between price and quantities (demanded)
+.hi[Definition:] The relationship between prices and quantities (demanded)
 
 --
 
@@ -284,7 +257,7 @@ The key players are .hi[firms]
 --
 
 .pull-right[
-.hi-orange[Example:] Supply schedule
+.hii[Example:] Supply schedule
 ```{r, table02, echo = FALSE}
 ex02 <- tibble(
   p = seq(2, 10, 2),
@@ -303,7 +276,7 @@ row_spec(1:5, background = "white", color = slate)
 --
 
 
-.hi[Supply curves] are constructed from .hii[producers] making optimal pruduction decisions
+.hi[Supply curves] are constructed from .hii[producers] making optimal production decisions
 
 ---
 
@@ -365,7 +338,7 @@ tibble(
   
 --
   
-- .hi[Consumer Surplus:] The difference between a conumers .hi-gold[maximum] willingness to pay (WTP) and the market price
+- .hi[Consumer Surplus:] The difference between a consumers .hi-gold[maximum] willingness to pay (WTP) and the market price
 
 --
 
@@ -374,10 +347,15 @@ tibble(
 ---
 # Review 013: Market equilibrium
 
+\begin{align*}
+Q = 1250 - 125*P \\
+Q = 125*P
+\end{align*}
+
 --
 
 .center[
-```{r, plot03, echo = FALSE, fig.width = 10, fig.height = 7}
+```{r, plot03, echo = FALSE, fig.width = 9, fig.height = 6}
 
 ggplot() +
   geom_line(data = ex01, aes(x = q, y = p), color = red_pink) +
@@ -394,8 +372,6 @@ ggplot() +
 
 ---
 # Review 013: Market equilibrium shifts
-
---
 
 ---
 # Example: Consumer surplus
@@ -494,7 +470,7 @@ P^\star = 10 + 2 = 12
   - $PS = \frac{1}{2}*(12-10)(2-0) = 2$
   
 ---
-# Quiz 01:
+# Example:
 
 Using the follow supply + demand functions
 
@@ -510,7 +486,7 @@ Determine:
 - (iv). Producer surplus
 
 ---
-name:elasticites
+name: elasticites
 # Review 014: Elasticities
 
 .hi[Elasticity:] A measure of responsiveness of one variable to another
@@ -607,7 +583,9 @@ name:profit
 
 - .hi[Profit] (denoted as $\Pi$): 
 
-.center[$\Pi = TR-TC$]
+\begin{equation}
+\Pi = TR-TC
+\end{equation}
   
 ---
 # Review 015: Cost functions
@@ -620,7 +598,7 @@ Suppose the price of the output good is $3$ dollars per unit. Suppose a firm's c
 
 - $AC$
 
-- Profit
+- $\Pi$ (profit)
 
 
 ---
@@ -636,7 +614,30 @@ Suppose the price of the output good is $3$ dollars per unit. Suppose a firm's c
 
 - $AC = \frac{9}{8}$ 
 
-- Profit $= 24 - 9 = 15$
+- $\Pi = 24 - 9 = 15$
+
+---
+name:utility
+
+# Review 016: Utility
+
+.ul[.hi[Definitions:]]
+
+- .hi[Utility:] Satisfaction one receives from consuming a good or a service
+
+  - Ordinal not cardinal; only know order of preference not how much
+  
+--
+
+- .hi[Utility function:] $U(x)$ A function that describes utility given from $x$
+  
+--
+  
+- .hi[Marginal Utility:] Additional utility received from one additional good
+
+--
+
+- .hi[The Law of Diminishing Marginal Utility:] Marginal utility decreases as one consumes more and more goods or services
 
 
 ---

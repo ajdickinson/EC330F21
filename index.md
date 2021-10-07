@@ -37,7 +37,7 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 	- Reading: Chapter 1 of TofC
 
 - __Lecture 04:__ City size (remote)
-	- [slides](slides003-size/03-size.html), [pdf](slides/003-size/03-size.pdf)
+	- [slides](slides/003-size/03-size.html), [pdf](slides/003-size/03-size.pdf)
 	- Reading: Chapter 2 of TofC
 	- PS01 due next Thursday (October 14th)
 

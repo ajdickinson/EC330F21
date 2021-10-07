@@ -36,10 +36,17 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 	- [slides](slides/002-review/02-review.html), [pdf](slides/002-review/02-review.pdf)
 	- Reading: Chapter 1 of TofC
 
-  - __Lecture 04:__ City size (remote)
-	- [slides](slides/003-size/03-size.html), [pdf](slides/003-size/03-size.pdf)
+  - __Lecture 04:__ EC201 reciew + The 5 axioms of urban economics (remote)
+	- slides (same as lecture 03)
 	- Reading: Chapter 2 and 3 of TofC
 	- PS01 due next Thursday (October 14th)
+
+- __Week 03:__
+
+  - __Lecture 05:__ City size (remote)
+	- [slides](slides/003-size/03-size.html), [pdf](slides/003-size/03-size.pdf)
+	- Reading: Chapter 3 and 4 of TofC
+	- PS01 due Thursday (October 14th)
 
 ## Acknowledgements
 

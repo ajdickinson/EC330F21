@@ -11,7 +11,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-# knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 
 ---
 class: inverse, center, middle
@@ -474,9 +474,9 @@ P^\star = 10 + 2 = 12
 
 Using the follow supply + demand functions
 
-.hii[Supply:] $Q(p_s) = 15 + \frac{1}{2} * p_s$
+.hii[Supply:] $Q(p_s) = -15 + \frac{3}{5} * p_s$
 
-.hi[Demand:] $Q(p_d) = 40 - \frac{2}{3} * p_d$
+.hi[Demand:] $Q(p_d) = 45 - \frac{2}{5} * p_d$
 
 Determine:
 

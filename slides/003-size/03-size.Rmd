@@ -151,7 +151,7 @@ name: schedule
 
 PS01 was posted
 
-- Due on .hii[Thursday, October 14th] on canvas
+- Due on .hii[Tuesday, October 19th] on canvas
 
 --
 
@@ -166,10 +166,6 @@ PS01 is going to be the easiest of the quarter
 - Use scratch paper! .hi[Points will be deducted for messy work]
 
 - Submit on Canvas by .hi[midnight]
-
---
-
-.center[.hi-pink[Is the recording on?]]
 
 ---
 class: inverse, center, middle
@@ -202,7 +198,7 @@ name: history
 
  - .hii[1840s:] .hi[Rail freight] becomes ubiquitous
  
-  - Transportation costs $\downarrow$
+  - Transportation costs `r emo::ji("down_arrow")`
 
 .center[
 ![:scale 65%](figures/cronon.png)
@@ -223,11 +219,11 @@ class: hide-count
 .smallerer[.pull-left[
 .ex[- 1840s: Rail becomes ubiquitous
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
   
--  .hi-orange[1840s:] .hi-pink[Telegraph] is invented
+-  .hi-orange[1840s:] .hi[Telegraph] is invented
 
-  - Informational distance $\downarrow$
+  - Informational distance `r emo::ji("down_arrow")`
 
 ]]
 
@@ -242,15 +238,15 @@ class: hide-count
 .pull-left[
 .ex[- 1840s: Rail becomes ubiquitous
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
   
 .ex[- 1840s: Telegraph is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
 
-- .hi-orange[1870's:] .hi-pink[Telephone] is invented
+- .hi-orange[1870's:] .hi[Telephone] is invented
 
-  - Informational distance $\downarrow$
+  - Informational distance `r emo::ji("down_arrow")`
 ]
 ]
 
@@ -264,19 +260,19 @@ class: hide-count
 .smallerer[.pull-left[
 .ex[- 1840s: Rail becomes ubiquitous
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
 
 .ex[- 1840s: Telegraph is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
 
 .ex[- 1870's: Telephone is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
 
-- .hi-orange[1908:] .hi-pink[Model T] production starts
+- .hi-orange[1908:] .hi[Model T] production starts
 
-  - Transportation costs $\downarrow$
+  - Transportation costs `r emo::ji("down_arrow")`
 ]]
 
 ---
@@ -289,23 +285,23 @@ class: hide-count
 .smallerer[.pull-left[
 .ex[- 1840s: Rail becomes ubiquitous
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
 
 .ex[- 1840s: Telegraph is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
 
 .ex[- 1870's: Telephone is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
   
 .ex[- 1908: Model T production starts
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
 
-- .hi-orange[1914:] First commercial .hi-pink[airline flight]
+- .hi-orange[1914:] First commercial .hi[airline flight]
 
-  - Transportation costs $\downarrow$
+  - Transportation costs `r emo::ji("down_arrow")`
   
 ]]
 
@@ -319,29 +315,29 @@ class: hide-count
 .smallerer[.pull-left[
 .ex[- 1840s: Rail becomes ubiquitous
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
 
 .ex[- 1840s: Telegraph is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
 
 .ex[- 1870's: Telephone is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
   
 .ex[- 1908: Model T production starts
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
 
 .ex[- 1914: First commercial airline flight
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
   
 ]
 .pull-right[
 - .hi-orange[1980s:] Airline [deregulation](https://en.wikipedia.org/wiki/Alfred_E._Kahn)
 
-  - Transportation costs $\downarrow$
+  - Transportation costs `r emo::ji("down_arrow")`
 
 ]]
 
@@ -355,33 +351,33 @@ class: hide-count
 .smallerer[.pull-left[
 .ex[- 1840s: Rail becomes ubiquitous
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
 
 .ex[- 1840s: Telegraph is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
 
 .ex[- 1870's: Telephone is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
   
 .ex[- 1908: Model T production starts
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
 
 - .ex[1914: First commercial airline flight
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
   
 ]
 .pull-right[
 .ex[- 1980s: Airline deregulation
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
   
 - .hi-orange[1990's:] The internet
 
-  - Information costs $\downarrow$
+  - Information costs `r emo::ji("down_arrow")`
 
 ]]
 
@@ -395,38 +391,38 @@ class: hide-count
 .smallerer[.pull-left[
 .ex[- 1840s: Rail becomes ubiquitous
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
 
 .ex[- 1840s: Telegraph is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
 
 .ex[- 1870's: Telephone is invented
 
-  - Informational distance $\downarrow$]
+  - Informational distance `r emo::ji("down_arrow")`]
   
 .ex[- 1908: Model T production starts
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
 
 - .ex[1914: First commercial airline flight
 
-  - Transportation costs $\downarrow$]]
+  - Transportation costs `r emo::ji("down_arrow")`]]
 
 .pull-right[
 .ex[- 1980s: Airline deregulation
 
-  - Transportation costs $\downarrow$]
+  - Transportation costs `r emo::ji("down_arrow")`]
   
 .ex[- 1990's: The internet
 
-  - Information costs $\downarrow$]
+  - Information costs `r emo::ji("down_arrow")`]
   
 - .hi-orange[2020s:] Post COVID
   
-  - Transportation costs $\downarrow$
+  - Transportation costs `r emo::ji("down_arrow")`
   
-  - Information costs $\downarrow$
+  - Information costs `r emo::ji("down_arrow")`
 
 - Among many other technological changes
 
@@ -487,7 +483,7 @@ There is a pretty simple, one-word answer. .hi-pink[Any guesses?]
 
 --
 
-.center[.hi[with a few caveats...]]
+.hi[Cities exist because individuals are not self-sufficient]
 
 
 --
@@ -505,7 +501,7 @@ First, suppose there was .hi[no trade]
 
 --
 
-- Even with trade, _possible_ that households trade amongst themselves (still no cities)?*
+- Even with trade, _possible_ that households trade amongst themselves
 
 ---
 
@@ -527,17 +523,15 @@ First, suppose there was .hi[no trade]
 
 ---
 
-# EC 201 Review 016: Trade - example
+# EC 201 Review 017: Trade - example
 
-.hi[Example]: 
-
-  - Suppose we have two countries, A & B. They are producing guns and oil
+.hi[Example]: Suppose we have two countries A & B- producing guns and oil
   
 Each counties PPF is .note[given] by:
 
-- .hi[County A]: $\color{#e64173} {Guns_A = 10 - 2*Oil_A}$
+- .hi[Country A]: $\color{#e64173} {Guns_A = 10 - 2*Oil_A}$
 
-- .hi[County B]: $\color{#6A5ACD} {Guns_B = 20 - 5*Oil_B}$
+- .hi[Country B]: $\color{#6A5ACD} {Guns_B = 20 - 5*Oil_B}$
 
 
 --
@@ -548,7 +542,7 @@ Each counties PPF is .note[given] by:
 
 ---
 
-# EC 201 Review 016: Trade - example
+# EC 201 Review 017: Trade - example
 
 --
 
@@ -571,9 +565,9 @@ ggplot(data.frame(x=c(0, 10)), aes(x)) +
 
 ---
 
-# EC 201 Review 016: Trade - example
+# EC 201 Review 017: Trade - example
 
-.hi-slate[PPFs]
+.hi[PPFs]
 
 ```{R, ppf2, echo = F, fig.height = 5, fig.width = 8, dev = "svg"}
 county_one <- function(x) 10-2*x
@@ -594,7 +588,7 @@ ggplot(data.frame(x=c(0, 10)), aes(x)) +
 
 ---
 
-# EC 201 Review 016: Trade - example
+# EC 201 Review 017: Trade - example
 
 .hi[Idea] Whomever _gives up less_ to produce the same amount extra has the comparative advantage. Check: 
 ```{R, ppf3, echo = F, fig.height = 5, fig.width = 8, dev = "svg"}
@@ -648,6 +642,25 @@ ggplot(data.frame(x=c(0, 10)), aes(x)) +
 ```
 
 ---
+
+# PPF Heuristics
+
+When looking at PPFs, to determine:
+
+
+1) .hi[AA]: Check .hii[intercepts]
+  
+  - Whoever has higher valued .hii[intercept] has the .hi[AA] in production
+
+
+2) .hi[CA]: Check .hi-gold[slopes]
+
+  - A .hi-gold[steeper slope] indicates .hi[CA] on the vertical axis
+  
+  - A .hi-gold[shallower slope] indicates .hi[CA] on the horizontal axis
+
+
+---
 # Why do cities exist?
 
 We need land to produce food and resources; dense cities don't provide
@@ -668,7 +681,7 @@ Three conditions must be satisfied:
 
 --
 
-.hi[(iii).] .hii[Transportation for exchange:] There must be an efficient transportation system to facilitate the exchange of food and urban products
+.hi[(iii).] .hii[Transportation for exchange:] Efficient transportation system to facilitate the exchange of food and urban products must exist
 
 --
 
@@ -676,29 +689,10 @@ The technology in this case is what we call .hi[trade]
 
 ---
 
-# PPF Heuristics
-
-When looking at PPFs, to determine:
-
-
-1) .hi[AA]: Check .hi-gold[intercepts]
-  
-  - Whoever has higher valued .hi[intercept] has the .hi-slate[AA] in production
-
-
-2) .hi[CA]: Check .hii[slopes]
-
-  - A .hi[steeper slope] indicates .hi-slate[CA] on the vertical axis
-  
-  - A .hi[shallower slope] indicates .hi-slate[CA] on the horizontal axis
-
-
----
-
 name: backyard
 # Backyard production model
 
-Use a simple economic model to understand the economic incentives behind cities
+A simple economic model to understand the economic incentives of cities
 
 --
 
@@ -740,7 +734,7 @@ Consider a region that produces and consumers two products:
   
 --
 
-.hi[A03:] CRS in .hii[roduction]
+.hi[A03:] CRS in .hii[production]
 
 --
 
@@ -755,22 +749,20 @@ Consider a region that produces and consumers two products:
 
 .hi[A01:] Equal productivity
 
+- There is no incentive to specialization due to transaction costs<sup>.hi[†]</sup>
+
 .hi[A02:] CRS in exchange and transportation
+
+- Locational equilibrium would be uniformly distributed population
 
 .hi[A03:] CRS in production
 
 --
 
-There is no incentive to specialization due to transaction costs<sup>.hi[†]</sup>
-
---
-
-Locational equilibrium would be uniformly distributed population
-
-- Prices adjust to ensure locational equilibrium<sup>.hi[††]</sup>
+.hi[A1: Prices adjust to ensure locational equilibrium] <sup>.hi[††]</sup>
 
 .footnote[<sup>.hi[†]</sup>transaction cost is the opportunity cost of the time required to exchange products
-<sup>.hi[††]</sup> Axoim 5 of urban economics]
+<sup>.hi[††]</sup> Axiom 5 of urban economics]
 
 
 ---
@@ -782,22 +774,22 @@ Locational equilibrium would be uniformly distributed population
 --
  
 .qa[A]: Nope. Let's relax that assumption
-
-<br>
+.hii[Ex:]
+- Soil may be more productive in certain regions; better climate
+- One region specializes in bread while the other in shirts
 
 --
 
 Relaxing A01 will lead to differences in productivity across cities:
 
-$\rightarrow$ .hi-pink[comparative advantages]
+$\implies$ .hi[comparative advantages]
 
-$\rightarrow$ specialization + trade
-
-<br>
+$\implies$ specialization + trade
 
 --
 
 However, specialization and trade will not alone lead to urban growth
+- HH trade directly with one another
 
 ---
 
@@ -877,7 +869,7 @@ Suppose factory workers can produce at a cheaper per-unit cost than HH
 
 --
 
-.hi[Example] (w/ numbers)
+.hi[Example:]
 
 Consider the shirt making factory:
 
@@ -896,7 +888,7 @@ The factory locates in a town with 50 miles to east and west of villages
 
 --
 
-.hi[Market area:] The area over which factories underprice home production of a good
+.hi[Market area:] Area over which factories underprice home production
 
 --
 

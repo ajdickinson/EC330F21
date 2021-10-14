@@ -50,6 +50,7 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 
 
   - __Lecture 06:__ City growth
+	- [slides](slides/004-growth/04-growth.html), [pdf](slides/004-growth/04-growth.pdf)
 	- Reading: Chapter 3 and 4 of TofC
 	- [PS01](problem-sets/ps01.pdf) due Tuesday (October 19th)
 

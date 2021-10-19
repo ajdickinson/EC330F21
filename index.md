@@ -54,6 +54,17 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 	- Reading: Chapter 3 and 4 of TofC
 	- [PS01](problem-sets/ps01.pdf) due Tuesday (October 19th)
 
+- __Week 04:__
+
+  - __Lecture 07:__ City growth + Rents
+	- [slides](slides/005-rents/05-rents.html), [pdf](slides/005-rents/05-rents.pdf)
+	- Reading: Chapter 4 and 5 of TofC
+	- [PS01](problem-sets/ps01.pdf) due tonight at midnight (October 19th)
+
+  - __Lecture 08:__ Rents (continued)
+	- [slides](slides/005-rents/05-rents.html), [pdf](slides/005-rents/05-rents.pdf) 
+	- Reading: Chapter 5 of TofC
+
 ## Acknowledgements
 
 Much of this course material is derived from [John Morehouse's Urban course](https://github.com/johnmorehouse/EC330_UrbanEcon) and [Mike Urbancic's](https://twitter.com/Urbancic) course. 

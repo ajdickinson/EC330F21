@@ -484,8 +484,6 @@ Since there are no barriers to entry, more firms will enter
 - $\Pi_{LF} = TR_{LF} - TC = 20 - 15 - r = 0 \Rightarrow r = 5$
 
 ---
-
-
 # (i) Housing prices model
 
 Extend the bid-rent model to the housing sector within a city
@@ -650,13 +648,14 @@ P &= \frac{M^*}{h} - \frac{t}{h} \cdot x
 We can use calculus and take derivative if $P$ w.r.t $x$ and get the same thing
 
 ---
-# (i) Housing prices model: Substitution
+# (i) Housing prices model: Example 
 
 .hi[Suppose the following:]
 
 --
 
-  - Each household has $800 a month to spend on housing and commuting
+  - Each household has $800 a month to spend
+    - Split between housing and commuting
 
 --
 
@@ -704,20 +703,19 @@ ggplot(data.frame(x=c(0, 10)), aes(x)) +
 ---
 # (i) Housing prices model: Substitution
 
-.qa[Q1]: If you really wanted to live closer to campus -- or an exciting downtown in a big city -- would you be willing to live in a smaller apartment to do so?
-
-
---
-
-.center[.qa[A1]: Most people: Yes. You are willing to .blue[substitute]]
+.qa[Q]: If you are trying to move to a better area, would you choose to sacrifice (_"substitute"_) apartment size?
 
 --
 
-.qa[Q2]: What do I mean by .blue[substitute]? Substitute what?
+.center[.qa[A]: Probably yes. Most people are willing to .blue[substitute]]
 
 --
 
-.center[.qa[A2]: Substitute housing consumption for .blue[lower commuting cost] ]
+.qa[Q]: What do I mean by .blue[substitute]? Substitute what?
+
+--
+
+.center[.qa[A]: Substitute housing consumption for .blue[lower commuting cost] ]
 
 .center[( or anything else being close to the center of the city gets you)]
 
@@ -745,7 +743,7 @@ Let's formalize the mechanism for substitution a bit:
 ---
 # Adding substitution to the model
 
-.qa[Q3]: Did our model of locational indifference accomdate for substitution?
+.qa[Q]: Did our model of locational indifference accomdate for substitution?
 
 \begin{align*}
 \Delta P \cdot h + \Delta x \cdot t &= 0
@@ -753,7 +751,7 @@ Let's formalize the mechanism for substitution a bit:
 
 --
 
-.qa[A3]: No because $h$ (_quantity of housing consumed_) is .hi[independent of distance] from center, $x$ 
+.qa[A]: No because $h$ (_quantity of housing consumed_) is .hi[independent of distance] from center, $x$ 
 
 - $h$ is exogenous in the model
 
@@ -796,36 +794,31 @@ WTP for land from manufacturing firms is a function of accessibility
 
 Firms are balancing .hi[freight] and .hii[labor costs]
   
-- Further from labor $\implies$ .orange[higher wage]
-  
-  - Compensating for increased commuting cost
+- Further from labor $\implies$ .orange[higher wage] (compensating commuting costs)
   
 - Further from shipping center $\implies$ .blue[higher freight cost]
 
 ---
-
 # Manufacturing Bid Rent
 
 Let's start with a simple model. .hi[Assumptions:]
 
-
 --
 
-.hi[(i).] Input & output .hi[prices] & .hi.purple[quantities] are fixed s.t. firms only decides location
+.hi[(i).] .hi[Input prices], .hii[output prices] & .hi-light-grey[quantities] are fixed 
+- Firms only decides location
   
 --
 
-.hi[(ii).] Firms import intermediate goods and export output to other cities via a .hi[central terminal] (train)
+.hi[(ii).] Firms import and export output to/from cities via a .hi[central terminal]
+- Train, harbor, etc.
+- Horse drawn carts are used to bring goods to terminal
 
 --
 
 .hi[(iii).] Wage are a function of commute time. 
 
 - Wage is highest at center
-
---
-
-.hi[(iv).] Firms use horse drawn carts to transport inputs and output to the .hi[central terminal]
 
 ---
 # Firm's Bid Rent
@@ -850,7 +843,7 @@ In this model:
 
 --
 
-- $TR = P*Q$ (fixed, exogenous)
+- $TR = P*Q$ (fixed, exogenous, i will tell you)
 
 --
 
@@ -930,7 +923,7 @@ P(x) &= \frac{TR - \text{Freight Cost}(x) - \text{Labor Cost}(x) - \bar{I}}{L_m}
 
 --
 
-- Higher revenues $\implies$ higher land prices .pink[for every distance] $x$
+- Higher revenues $\implies$ higher land prices .hi-light-grey[for every distance] $x$
 
 - An increase in freight costs, labor costs, or intermediate input costs will __decrease__ the price for every distance $x$
 
@@ -997,17 +990,17 @@ In our model, what do these innovations do?
 ---
 # More History 
 
-The _intracity_ truck (1910): twice as fast and half as costly as the horse-drawn wagon<sup>.pink[†]</sup>
+The _intracity_ truck ([1910](https://i.pinimg.com/originals/fc/76/38/fc7638989799ddf18d1b651805edc3fa.jpg)): 2x faster and half as costly as the horse-drawn wagon<sup>.pink[†]</sup>
 
 --
 
-- Decreased the cost of moving output .hi[relative] to the cost of moving workers
+- Decreased cost of moving output .hi[relative] to cost of moving workers
 
-- Manufacturing Firms moved closer to low-wage suburbs
+- Manufacturing firms moved closer to low-wage suburbs
 
 --
 
-_Intercity_ truck (1930): alternative to ships and rail<sup>.pink[††]</sup>
+_Intercity_ truck ([1930](https://c8.alamy.com/comp/2A2WX3J/negative-thornycroft-truck-loaded-with-drapery-ironmongery-homewares-wangaratta-district-victoria-circa-1930s-a-man-standing-beside-a-3-axle-thornycroft-truck-the-truck-advertises-drapery-and-clothing-china-and-glassware-and-ironmongery-and-tinware-2A2WX3J.jpg)): alternative to ships and rail<sup>.pink[††]</sup>
 
 .footnote[
 .pink[†] Intra = Within 
@@ -1042,7 +1035,7 @@ Same as the other bidders, WTP for land depends on accessibility
 
 --
 
-Office firms use high skilled labor. Need _face to face_ interaction for production
+Office firms use high skilled labor- _face to face_ interaction is productive
 
 - Proximity to other office firms is an important input
 
@@ -1080,12 +1073,15 @@ ggplot(data.frame(x=c(0, 20)), aes(x)) +
 ---
 # City Organization
 
-So how do we put all of this together? And why are these called __bid__ rent curves anyways? 
+.center[.hi[How do we put all of this together?]]
 
 --
 
-- .hi[Land will be allocated to highest bidder]
+.center[.hi[Why are these called __bid__ rent curves?]]
 
+--
+
+.hi[Land will be allocated to highest bidder]
 - This will vary by location in the city
 
 --

@@ -191,6 +191,10 @@ hr, .mline h1::after {
   font-weight: 600;
   color: #8AA19E !important;
 }
+.hi-light-grey {
+  font-weight: 600;
+  color: #A2AAAD !important;
+}
 .hi-light-blue {
   font-weight: 600;
   color: #54778B !important;

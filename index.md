@@ -5,8 +5,8 @@ Public slide repository for EC330: Urban Economics and Regional Studies by Andre
 Course material links:
   - [Syllabus](syllabus/syllabus.pdf)
   - Problem sets
-	- [PS01](problem-sets/ps01.pdf)
-	- [PS02](problem-sets/ps02.pdf)
+	- [PS01](problem-sets/ps01/ps01.pdf)
+	- [PS02](problem-sets/ps02/ps02.pdf)
 	- PS03 (not posted yet)
 	- PS04 (not posted yet)
   - TotC Rubric (not posted yet)
@@ -39,27 +39,27 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
   - __Lecture 04:__ EC201 reciew + The 5 axioms of urban economics (remote)
 	- slides (same as lecture 03)
 	- Reading: Chapter 2 and 3 of TofC
-	-  [PS01](problem-sets/ps01.pdf) due next Tuesday (October 19th)
+	-  [PS01](problem-sets/ps01/ps01.pdf) due next Tuesday (October 19th)
 
 - __Week 03:__
 
   - __Lecture 05:__ City size 
 	- [slides](slides/003-size/03-size.html), [pdf](slides/003-size/03-size.pdf)
 	- Reading: Chapter 3 and 4 of TofC
-	- [PS01](problem-sets/ps01.pdf) due Tuesday (October 19th)
+	- [PS01](problem-sets/ps01/ps01.pdf) due Tuesday (October 19th)
 
 
   - __Lecture 06:__ City growth
 	- [slides](slides/004-growth/04-growth.html), [pdf](slides/004-growth/04-growth.pdf)
 	- Reading: Chapter 3 and 4 of TofC
-	- [PS01](problem-sets/ps01.pdf) due Tuesday (October 19th)
+	- [PS01](problem-sets/ps01/ps01.pdf) due Tuesday (October 19th)
 
 - __Week 04:__
 
   - __Lecture 07:__ City growth + Rents
 	- [slides](slides/005-rents/05-rents.html), [pdf](slides/005-rents/05-rents.pdf)
 	- Reading: Chapter 4 and 5 of TofC
-	- [PS01](problem-sets/ps01.pdf) due tonight at midnight (October 19th)
+	- [PS01](problem-sets/ps01/ps01.pdf) due tonight at midnight (October 19th)
 
   - __Lecture 08:__ Rents (continued)
 	- [slides](slides/005-rents/05-rents.html), [pdf](slides/005-rents/05-rents.pdf) 

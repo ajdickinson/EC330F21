@@ -6,7 +6,7 @@ Course material links:
   - [Syllabus](syllabus/syllabus.pdf)
   - Problem sets
 	- [PS01](problem-sets/ps01.pdf)
-	- [PS02](problem-sets/PS02.pdf)
+	- [PS02](problem-sets/ps02.pdf)
 	- PS03 (not posted yet)
 	- PS04 (not posted yet)
   - TotC Rubric (not posted yet)

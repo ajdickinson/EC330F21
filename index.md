@@ -68,7 +68,7 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 - __Week 05:__
 
   - __Lecture 09:__ Neighborhood choice
-	- [slides](slides/006-nbhd/06-nbhd.html), [pdf](slides/006-nbhd/06-nbhd.pdf)
+	- [slides](slides/006-nbhd-choice/06-nbhd-choice.html), [pdf](slides/006-nbhd-choice/06-nbhd-choice.pdf)
 	- Reading Chapter 5 of TofC
 	- [PS02](problem-sets/ps02/ps02.pdf) due Tuesday Nov 02 at midnight
 

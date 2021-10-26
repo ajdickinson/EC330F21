@@ -65,6 +65,13 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 	- [slides](slides/005-rents/05-rents.html), [pdf](slides/005-rents/05-rents.pdf) 
 	- Reading: Chapter 5 of TofC
 
+- __Week 05:__
+
+  - __Lecture 09:__ Neighborhood choice
+	- [slides](slides/006-nbhd/06-nbhd.html), [pdf](slides/006-nbhd/06-nbhd.pdf)
+	- Reading Chapter 5 of TofC
+	- [PS02](problem-sets/ps02/ps02.pdf) due Tuesday Nov 02 at midnight
+
 ## Acknowledgements
 
 Much of this course material is derived from [John Morehouse's Urban course](https://github.com/johnmorehouse/EC330_UrbanEcon) and [Mike Urbancic's](https://twitter.com/Urbancic) course. 

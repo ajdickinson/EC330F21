@@ -72,6 +72,11 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 	- Reading Chapter 5 of TofC
 	- [PS02](problem-sets/ps02/ps02.pdf) due Tuesday Nov 02 at midnight
 
+  - __Lecture 10:__ Urban labor markets
+	- [slides](slides/007-labor/07-labor.html), [pdf](slides/007-labor/07-labor.pdf)
+	- Reading Chapter 5 of TofC
+	- [PS02](problem-sets/ps02/ps02.pdf) due Tuesday Nov 02 at midnight
+
 ## Acknowledgements
 
 Much of this course material is derived from [John Morehouse's Urban course](https://github.com/johnmorehouse/EC330_UrbanEcon) and [Mike Urbancic's](https://twitter.com/Urbancic) course. 

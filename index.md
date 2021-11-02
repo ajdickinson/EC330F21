@@ -84,7 +84,7 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 	- Reading Chapter 5 of TofC
 	- [PS02](problem-sets/ps02/ps02.pdf) due tonight at midnight
 
-  - __Midterm Exam__
+  - __Lecture 12:__ Midterm Exam in class
 
 ## Acknowledgements
 

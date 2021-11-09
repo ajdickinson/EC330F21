@@ -87,6 +87,12 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 
   - __Lecture 12:__ Midterm Exam in class
 
+- __Week 07:__
+
+  - __Lecture 13:__ Urban labor markets
+	- [slides](slides/007-labor/07-labor.html), [pdf](slides/007-labor/07-labor.pdf)
+	- Reading Chapter 6 of TotC
+
 ## Acknowledgements
 
 Much of this course material is derived from [John Morehouse's Urban course](https://github.com/johnmorehouse/EC330_UrbanEcon) and [Mike Urbancic's](https://twitter.com/Urbancic) course. 

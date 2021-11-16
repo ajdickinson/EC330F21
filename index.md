@@ -98,7 +98,7 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 - __Week 08:__
 
   - __Lecture 15:__ Minimum wage
-        - [slides](slides/008-mw-causality/08-mw-causality.html)
+	- [slides](slides/008-mw-causality/08-mw-causality.html)
 	- Reading Chapter 6 of TofC
 
 

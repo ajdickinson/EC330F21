@@ -25,7 +25,7 @@ class: center, middle, inverse, title-slide
 # Econ 330: Urban Economics
 ## Lecture 08
 ### Andrew Dickinson
-### 28 October, 2021
+### 16 November, 2021
 
 ---
 
@@ -33,427 +33,48 @@ class: inverse, center, middle
 
 
 
-# Lecture 10: Minimum Wage, Monopsony &amp; Empirics
+# Lecture 13: Minimum Wage, Monopsony &amp; Empirics
 
 ---
-name: schedule
+class: inverse, middle
 # Schedule
 
-## Today
+.pull-left[
+.ul[.bigger[.hi-gold[Today:]]]
+
+.hi-white[(i). The mimimum wage]
+
+.hi-white[(ii). Rent control and LUR]
+
+.hi-white[(iii). Causal Inference]
+
+]
 
 --
 
-1) .hi.purple[Monopsony]
+.pull-right[
+.ul[.bigger[.hi-gold[Upcoming:]]]
 
-2) .hi.purple[Discussion]
-
-3) .hi.purple[Empirics]
-
-
----
-# Competitive Model
-
-We built up labor .hi[supply] and .hi[demand]. Where do these come from?
-
---
-
-  - Demand: Firms
+  - .hi-white[Reading] (Chapter 7)
   
-  - Supply: Workers
-
---
-
-What did we assume about the market structure?
-
---
-
-- .hi[Perfect Competition]
-
----
-count: false
-# Competitive Model
-
-We built up labor .hi[supply] and .hi[demand]. Where do these come from?
-
-
-
-  - Demand: Firms
+  - .hi-white[Problem set 02 due Wednesday night]
   
-  - Supply: Workers
-
-
-
-What did we assume about the market structure?
-
-
-
-- .hi[Perfect Competition]
-
-  - Firms pay workers their MV of labor (max WTP)
-  
-  
---
-
-Probably not super reasonable
-
---
+]
 
 ---
-# Monopsony
+# Housekeeping
 
-Let's consider a different labor market structure:
-
---
-
-&lt;center&gt;
-&lt;font size="15"&gt; Monopsony &lt;/font&gt;
-&lt;/center&gt;
-
---
-
-- We say a firm is a .hi[monopsonist] if they are .hi.purple[the only employer] of labor in the area (city)
-
-- We say a firm has .hi[monopsony power] if they have the ability to influence the market wage
-
---
-
-  - Not to be confused with __monopoly__ (in which there is only one .hi.purple[seller] of a good)
-  
-  - __Monopsony__ has to do with one .hi.purple[buyer] of a good 
-  
---
-
----
-# Examples of Monopsonys
-
-Can you think of any?
-
---
-
-- Universities (go GTFF!)
-
-- Coal Towns
-
-- Amazon / Walmart Towns?
-
---
-
-
-
-
----
-# Monopsony
-
-So what do you think the main consequence(s) of .hi[monopsony] are?
-
-&lt;center&gt;
-&lt;font size="15"&gt; Monopsonists have the ability to pay a wage below the marginal value &lt;/font&gt;
-&lt;/center&gt;
-
-The consequences?
-
---
-
-- .pink[Higher profit] for the firms
-
-- Deadweight loss (inefficient outcome)
-
---
-
-
-
----
-
-
-# Monopsony: Formalizing the Result
-
-In the competive model, the firm pays the worker `\(w = MRP_l\)`. 
-
---
-
-- Is this what the monopsonist would do?
-
-- Where is this?
-
---
-
----
-
-
-
-# Recall: The competitive model
-
-Remember: in the competitve model, the firm seeks to maximize profits (but does not influence prices). 
-
-  - The competitive firm hires labor until the marginal profit w.r.t labor is zero
-  
-`\begin{align*}
-\pi &amp;= TR - TC\\
-\pi &amp;= TR - wL - rK
-\end{align*}`
-
-Profit maxing cond: `\(\frac{\Delta \pi}{\Delta L} = 0 \implies MRP_L -w = 0 \implies w = MRP_L\)`
-
-
----
-
-# Monopsony: Formalizing the Result
-
-With a monopsonist, the amount of labor they hire influences the wage. That is, now
-
---
-`\begin{align*}
-\pi &amp;= TR - w(L)L - rK
-\end{align*}`
---
-
-where `\(w(L)\)` is an .pink[increasing function] of the .pink[amount of labor hired]
-
---
-
-- The firm should hire labor until marginal cost is equalized to marginal benefit (.hi.purple[same as before])
-  
-  - or: _.pink[marginal profit] wrt labor_ is equal to zero
-  
-`\begin{align*}
-\frac{\Delta \pi}{\Delta L} =0 
-\end{align*}`
-
---
----
-
-
-
-# Monopsony: Formalizing the Result
-
-Notation: `\(TC(L) =w(L)*L\)` is the TC from labor in monopsony (__note__: `\(w(L)\)` wage is a function of labor)
-
-`\begin{align*}
-\pi &amp;= TR - TC(L) - rK
-\end{align*}`
-
---
-
-Profit Maximization:
-
-`\begin{align*}
-\frac{\Delta \pi}{\Delta L} &amp;=0
-\end{align*}`
-
---
-
----
-
-
-count: false
-# Monopsony: Formalizing the Result
-
-Notation: `\(TC(L) =w(L)*L\)` is the TC from labor in monopsony (__note__: `\(w(L)\)` wage is a function of labor)
-
-`\begin{align*}
-\pi &amp;= TR - TC(L) - rK
-\end{align*}`
-
-Profit Maximization:
-
-`\begin{align*}
-\frac{\Delta \pi}{\Delta L} &amp;=0\\
-MRP_L - \frac{\Delta TC(L)}{\Delta L} &amp;= 0\\
-\end{align*}`
-
-
----
-
-count: false
-# Monopsony: Formalizing the Result
-
-Notation: `\(TC(L) =w(L)*L\)` is the TC from labor in monopsony (__note__: `\(w(L)\)` wage is a function of labor)
-
-`\begin{align*}
-\pi &amp;= TR - TC(L) - rK
-\end{align*}`
-
-Profit Maximization:
-
-`\begin{align*}
-\frac{\Delta \pi}{\Delta L} &amp;=0\\
-MRP_L - \frac{\Delta TC(L)}{\Delta L} &amp;= 0\\
-MRP_L &amp;= \frac{\Delta TC(L)}{\Delta L}\\
-MRP_L &amp; = MC_L
-\end{align*}`
-
-
----
-
-
-count: false
-# Monopsony: Formalizing the Result
-
-So the monoposonist hires until:
-
-`\begin{align*}
-MRP_L &amp; = MC_L
-\end{align*}`
-
-Compared to the competitve outcome:
-
-`\begin{align*}
-MRP_L &amp; = W
-\end{align*}`
-
-.hi[Important:] Note that in the competitive model, marginal cost of labor was constant (and equal to wage).
-
-
----
-
-
-
-
-count: false
-# Monopsony: Formalizing the Result
-
-So the monoposonist hires until:
-
-`\begin{align*}
-MRP_L &amp; = MC_L
-\end{align*}`
-
-Compared to the competitve outcome:
-
-`\begin{align*}
-MRP_L &amp; = W
-\end{align*}`
-
-.hi[Important:] Note that in the competitive model, marginal cost of labor was constant (and equal to wage).
-
-  - Now: marginal cost is increasing because monopsonist is _only_ buyer of labor
-
----
-
-
-
-
-
-
-# Graph of Monopsony
-
-&lt;img src="08-mw-causality_files/figure-html/monop1-1.svg" style="display: block; margin: auto;" /&gt;
-
----
-
-
-
-
-# Graph of Monopsony
-
-&lt;img src="08-mw-causality_files/figure-html/monop2-1.svg" style="display: block; margin: auto;" /&gt;
-
----
-
-
-# Monopsony and Minimum Wage
-
-- So we saw the .pink[monopsonist] outcome leads to .hi[lower employment and wages] than the .pink[competitive outcome].
-
-
---
-
-- In perfect competition, what happens to unemployment with a minimum wage?
-
-
---
-
-
-
----
-
-
-count: fale
-# Monopsony and Minimum Wage
-
-- So we saw the .pink[monopsonist] outcome leads to .hi[lower employment and wages] than the .pink[competitive outcome].
-
-
-
-- In perfect competition, what happens to unemployment with a minimum wage?
-
-  - It .pink[increases]. Labor supply outstrips labor demand
-  
---
-
-- Is it the same with a monopsony? No!
-
---
-
-PS: I'll post a worked-through example tutorial on my ipad for these later this week.
-
----
-
-# Minimum Wage Graph
-
-
-&lt;img src="08-mw-causality_files/figure-html/min_wage_monop-1.svg" style="display: block; margin: auto;" /&gt;
-
-
----
-
-
-# Geographic Varying Mkt Power
-
-Source: [Rinz, 2018](https://kevinrinz.github.io/concentration.pdf)
-![](images/rinz_monop.png)
 
 ---
 
 class: inverse, middle
-# Checklist
-
-.col-left[
-1) .hi[Monopsony] ✅
-
-  - Monopsony Outcome vs Competitive Outcome
-  
-  - Min wage in monopsony
-  
-
-
-2) .hi.purple[Discussion] 
-
-
-
-]
-
-
-.col-right[
-
-3) .hi.purple[Empirics]
-
-]
+# History of the minimum wage
 
 ---
-# Discussion
-
-- .purple[Structure of labor market] leads to .pink[two different effects] for the same policy
-
---
-
-- In reality, most labor markets are somewhere in between perfect competition and monopsony
-
---
-
-- The more competitive a market is, more likely that minimum wage will increase unemployment
+# History of the minimum wage
 
 
----
-
-
-
-
-
-# A Brief History Lesson
-
-
-.col-left[
+.pull-left[
 - __1894__: New Zealand enacts the [Industrial Concilation and Arbitration Act](https://en.wikipedia.org/wiki/Industrial_Conciliation_and_Arbitration_Act_1894)
 
   - Worlds first Min wage!
@@ -461,7 +82,7 @@ class: inverse, middle
 
 ]
 
-.col-right[
+.pull-right[
 
 ]
 
@@ -474,7 +95,7 @@ count: false
 # A Brief History Lesson
 
 
-.col-left[
+.pull-left[
 - .ex[__1894__: New Zealand enacts the [Industrial Concilation and Arbitration Act](https://en.wikipedia.org/wiki/Industrial_Conciliation_and_Arbitration_Act_1894)]
 
   - .ex[Worlds first Min wage!]
@@ -484,7 +105,7 @@ count: false
 
 ]
 
-.col-right[
+.pull-right[
 
 ]
 
@@ -495,7 +116,7 @@ count: false
 # A Brief History Lesson
 
 
-.col-left[
+.pull-left[
 - .ex[1894: New Zealand enacts the [Industrial Concilation and Arbitration Act](https://en.wikipedia.org/wiki/Industrial_Conciliation_and_Arbitration_Act_1894)]
 
   - .ex[Worlds first Min wage!]
@@ -507,7 +128,7 @@ count: false
 
 ]
 
-.col-right[
+.pull-right[
 
 ]
 
@@ -519,7 +140,7 @@ count: false
 # A Brief History Lesson
 
 
-.col-left[
+.pull-left[
 - .ex[1894: New Zealand enacts the [Industrial Concilation and Arbitration Act](https://en.wikipedia.org/wiki/Industrial_Conciliation_and_Arbitration_Act_1894)]
 
   - .ex[Worlds first Min wage!]
@@ -531,7 +152,7 @@ count: false
 
 ]
 
-.col-right[
+.pull-right[
 
 - __1968__: Federal Minimum Wage reaches .hi[peak purchasing power] at $1.60 per hour ($11.53 in 2019 dollars) 🤯
 
@@ -546,7 +167,7 @@ count: false
 # A Brief History Lesson
 
 
-.col-left[
+.pull-left[
 - .ex[1894: New Zealand enacts the [Industrial Concilation and Arbitration Act](https://en.wikipedia.org/wiki/Industrial_Conciliation_and_Arbitration_Act_1894)]
 
   - .ex[Worlds first Min wage!]
@@ -558,7 +179,7 @@ count: false
 
 ]
 
-.col-right[
+.pull-right[
 
 - .ex[__1968__: Federal Minimum Wage reaches .hi[peak purchasing power] at $1.60 per hour ($11.53 in 2019 dollars) 🤯]
 
@@ -568,37 +189,52 @@ count: false
 
 ]
 
+---
+# History of the minimum wage
+
+.center[
+![:scale 70%](./figures/real-minimum-wage.png)
+]
+
 
 ---
 
 
-# Thoughts
+# Minimum wage discussion
 
-So what do you think? Is minimum wage good? Is it bad? .hi.purple[Discuss]
-
---
-
-.hi[Note]: The question _is minimum wage good?_ is __not__ a good question. Good is normative. Better:
-
-- Does minimum wage impact all low wage workers .pink[equally?]
+So what do you think? Is minimum wage good? Is it bad?
 
 --
 
-- Does minimum wage .pink[cause] increases in .purple[unemployment?]
+.hi[Note]: The question _is minimum wage good?_ is .hi[not] a good question.
 
 --
 
-- Does minimum wage lead to firms reducing other, non-mandated benefits?
+Good is .hii[normative]
+
+.hi[Better:] Does minimum wage impact all low wage workers .hi[equally?]
+
+--
+
+Does minimum wage cause increases in unemployment?
+
+--
+
+Does minimum wage lead to firms reducing other, non-mandated benefits?
 
 --
 
 Above questions: quantifiable, with answers that can (and should?) be answered empirically
 
 ---
+# Geographic Varying Mkt Power
+
+Source: [Rinz, 2018](https://kevinrinz.github.io/concentration.pdf)
+![](figures/rinz_monop.png)
 
 
-
-# Current Acts
+---
+# Recent legistlation
 
 _Raise the Wage Act of 2021:_
  
@@ -637,8 +273,6 @@ attributes more modest effects to the first wage increase. We estimate an effect
 employment in the restaurant industry at all wage levels, comparable to many prior studies.
 
 ---
-
-
 # Recap
 
 Overall, the effects of min wage on all kinds of outcomes is still debated. Though a it does seem like a larger body of evidence is pointing towards minimal advserse employment effects.
@@ -650,98 +284,63 @@ Overall, the effects of min wage on all kinds of outcomes is still debated. Thou
 As always, more work to do here. A lot more research on this topic we don't have time to go over. But: how does anyone figure any of this stuff out?
 
 ---
+# Alternative: EITC
 
-class: inverse, middle
-# Checklist
+.hi[EITC:]
 
-.col-left[
-1) .hi[Monopsony] ✅
+&gt; A refundable tax credit for low- to moderate-income working individuals, couples, families.
 
-  - Monopsony Outcome vs Competitive Outcome
-  
-  - Min wage in monopsony
-  
-
-
-2) .hi[Discussion] ✅
-
-]
-
-
-.col-right[
-
-3) .hi.purple[Empirics]
-
+.center[
+![](./figures/eitc.png)
 ]
 
 ---
+class: inverse, middle
+# Causal inference
 
-# Introduction
+---
 
-We are going to talk about .pink[causality]. 
+# Causal inference: Introduction
+
+We are going to talk about .hi[causality]. 
 
 Some of these notes are based on written by [Ed Rubin](http://edrub.in/) &amp; [Kyle Raze](https://kyleraze.com/)
 
-
 ---
-
-
-# Introduction
+# Causal inference: Introduction
 
 Hisotrically, social sciences had limited data to study policy questions. 
 
-__Result__: Social sciences were .pink[theoretical] fields
+.hi[Result:] Social sciences were .hi[theoretical] fields
 
-  - Economists used .purple[mathematical models]
-  - Sociologists developed .pink[qualitative theories]
+  - Economists used .hii[mathematical models]
+  - Sociologists developed .hi[qualitative theories]
   - Both used their theories to make policy reccomendations
 
+--
 
-
----
-
-
-count: false
-# Introduction
-
-Hisotrically, social sciences had limited data to study policy questions. 
-
-__Result__: Social sciences were .pink[theoretical] fields
-
-  - Economists used .purple[mathematical models]
-  - Sociologists developed .pink[qualitative theories]
-  - Both used their theories to make policy reccomendations
-
-
-
-__Problem__: Theories can be (and often are) wrong
+.hii[Problem:] Theories can be (and often are) wrong
 
   - 5 economists often have 5 answers to .pink[the same question]
   - Leads to a politicization of questions that, in principle, have scientific answers (ie: does minimum wage cause increased in unemployment?)
 
 
 ---
+# Causal revolution
 
-
-
-
-
-
-
-# Nowadays
-
-.hi.purple[Today]: social sciences are increasingly .pink[empirical] thanks to the growing availability of data
+.hi[Today]: social sciences are increasingly .hii[empirical] thanks to the growing availability of data
 
   - Ability to test and improve theories using real data
   
   - Data driven answers `\(\implies\)` less politicization
+  
+--
+
+Furthermore, the .hi[causal revolution] that started 30 years ago in other fields such as statistics, computer science (AI), psychology etc has given us the tools (language) to make causal statements 
 
 
 ---
-
-
-
-# Discussion
+# Causal inference
 
 The economists toolkit:
 
@@ -751,461 +350,170 @@ The economists toolkit:
   
 --
 
-__Be careful in distinguishing:__
+.hi[Be careful in distinguishing between:]
 
-  - empirical facts such as _.pink[average unemployment was lower after minimum wage was placed]_
+  - Empirical facts such as _.pink[average unemployment was lower after minimum wage was placed]_
   
 --
 
-  - empirical or theoretical claims (supported by facts) such as: _.purple[average unemployment was lower] .hi.purple[because] .purple[of minimum wage]_ or
+  - Empirical or theoretical claims (supported by facts) such as: _.purple[average unemployment was lower] .hi.purple[because] .purple[of minimum wage]_ or
   
-    -  _average unemployment was lower after minimum wage was placed .pink[because] the market was a monosopsony_
+    -  _average unemployment was lower after minimum wage was placed because the market was a monosopsony_
+
+---
+# Causal revolution: Counterfactual
+
+
+Suppose we want to answer the question:
+
+ _Does minimum wage lead to increases in unemployment_?
+ 
+ .hi[What would be the best way to answer this question?]
+ 
+--
+
+.hi[Definition: Counterfactual]
+
+&gt; The outcome of a policy (or event or treatment) had that policy not happenend
 
 --
 
+- Think of parallel universes
+
+---
+# The ideal experiment
+
+.hi[Suppose we want to answer the question:] _Does minimum wage lead to increases in unemployment_?
+
 --
 
+What would be the .hii[ideal experiment] with unlimited resources and data?
+
+--
+
+.hii[(i).] Implement minimum wage in one state - New Jersey
+
+--
+
+.hii[(ii).] Compute unemployment in NJ .hi[post minimum wage] and call it `\(u_{\text{m, NJ}}\)`
+
+--
+
+.hii[(iii).] Have a .hi[parallel universe] in which you did not implement min wage in NJ. Compute `\(u_{\text{w, NJ}}\)`
+
+--
+
+.hii[(iv).] .hi[Treatment effect] of the min wage for NJ, given by: `$$\tau_{text{m, NJ}} = u_{\text{m, NJ}} - u_{\text{w, NJ}}$$` 
 
 ---
+# Issues with the ideal experiment
 
 
+Unfortunately, we do not have a parallel universe at our disposal
 
-# Path to Causality
+--
 
+This is called the .hi[fundamental problem of causal inference]
 
-Suppose we want to answer the question:
+- We will never observe two parallel universes- treated and untreated
 
- _Does minimum wage lead to increases in unemployment_? What is the _ideal_ comparision? (experiment)
- 
+--
 
----
+We can never _guaruntee_ all else is equal, but we will try our best.
 
+--
 
-
-count: false
-# Path to Causality
-
-
-Suppose we want to answer the question:
-
- _Does minimum wage lead to increases in unemployment_? What is the _ideal_ comparision? (experiment)
- 
-## The Ideal Experiment
-
-
-1) .pink[Implement minimum wage] (in say NJ -- this will give us the causal effect in NJ only).
-
+.qa[Q:] How can we answer this question, without a parallel universe?
 
 ---
+# Setup
 
+.qa[Q:]  _Does minimum wage lead to increases in unemployment_?
 
+We need a setting: in 1993 NJ rose minimum wage from 4.25 to 5.05.
 
+--
 
+.qa[Q:] What .hi[comparisons could you make] to under the the effect of NJ min wage on unemployment?
 
-count: false
-# Path to Causality
+--
 
+.hi[(i).] Compare average unemployment in NJ .hii[before] and .hi-gold[after] the policy
 
-Suppose we want to answer the question:
+--
 
- _Does minimum wage lead to increases in unemployment_? What is the _ideal_ comparision? (experiment)
- 
-## The Ideal Experiment
+.hi[(ii).] Also could compare average unemployment in .hii[NJ] to .hi-gold[other states]
 
+--
 
-1) .pink[Implement minimum wage] (in say NJ -- this will give us the causal effect in NJ only).
+.qa[Q:] .hi[Problems?]
 
-2) Compute unemployment in NJ .purple[post minimum wage], call it `\(u_{\text{min wage}, NJ}\)`
+--
 
+.hii[(i).] Other factors could be influencing unemployment at same time as NJ as min wage implementation
 
----
+--
 
-
-
-
-
-count: false
-# Path to Causality
-
-
-Suppose we want to answer the question:
-
- _Does minimum wage lead to increases in unemployment_? What is the _ideal_ comparision? (experiment)
- 
-## The Ideal Experiment
-
-
-1) .pink[Implement minimum wage] (in say NJ -- this will give us the causal effect in NJ only).
-
-2) Compute unemployment in NJ .purple[post minimum wage], call it `\(u_{\text{min wage}, NJ}\)`
-
-
-3) Have a .hi[parallel universe] in which you did .pink[not implement min wage] in NJ. Compute `\(u_{\text{min wage}, NJ}\)`
+.hii[(ii).] Could be _many_ things that cause average wages to be different in NJ and other states (not related to min wage)
 
 
 ---
-
-
-
-
-
-count: false
-# Path to Causality
-
-
-Suppose we want to answer the question:
-
- _Does minimum wage lead to increases in unemployment_? What is the _ideal_ comparision? (experiment)
- 
-## The Ideal Experiment
-
-
-
-1) .pink[Implement minimum wage] (in say NJ -- this will give us the causal effect in NJ only).
-
-2) Compute unemployment in NJ .purple[post minimum wage], call it `\(u_{\text{min wage}, NJ}\)`
-
-3) Have a .hi[parallel universe] in which you did .pink[not implement min wage] in NJ. Compute `\(u_{\text{min wage}, NJ}\)`
-
-4) .hi[Treatment effect] of the min wage for NJ, given by: `$$\tau_{\text{min wage}, NJ} = u_{\text{min wage}, NJ} - u_{\text{min wage}, NJ}$$`
-
----
-
-
-
-
-
-
-
-
-
 # Issues
 
-- Unfortunately, we do not have a parallel universe at our disposal
+.center[.hi[A causal statement is a high bar]]
+
+Both issues were violations of the _.hii[all else equal]_ assumption
 
 --
 
-- This is called the .hi[fundamental problem of causal inference]. Put in a different way:
-
-  - We can never see the same individual (unit) when they are both treated and untreated
+Otherwise known broadly as .hi[Endogeneity], .hii[Simultaneous Equations], or .hi-gold[Selection Bias]
 
 --
 
-- So we can never _.pink[garuntee]_ all else is equal, but we will try our best.
-
---
-
---
-
-__Q__: How can we answer this question, without a parallel universe? Let's dive in.
-
-
----
-
-# Setup
-
-__Q1__:  _Does minimum wage lead to increases in unemployment_?
-- We need a setting to study this. For example, in 1993 NJ rose minimum wage from 4.25 to 5.05.
-
-
-
-
----
-
-
-
-
-count: false
-# Setup
-
-__Q1__:  _Does minimum wage lead to increases in unemployment_?
-- We need a setting to study this. For example, in 1993 NJ rose minimum wage from 4.25 to 5.05.
-
-
-
-
----
-
-
-count: false
-# Setup
-
-__Q1__:  _Does minimum wage lead to increases in unemployment_?
-- We need a setting to study this. For example, in 1993 NJ rose minimum wage from 4.25 to 5.05.
-
-
-__Q2__: What .pink[comparisons could you make] to under the the effect of NJ min wage on unemployment?
-
-
----
-
-
-
-count: false
-# Setup
-
-__Q1__:  _Does minimum wage lead to increases in unemployment_?
-- We need a setting to study this. For example, in 1993 NJ rose minimum wage from 4.25 to 5.05.
-
-
-__Q2__: What .pink[comparisons could you make] to under the the effect of NJ min wage on unemployment?
-
-1. Compare average unemployment in NJ .pink[before] and .purple[after] the policy
-
-
----
-
-
-
-
-count: false
-# Setup
-
-__Q1__:  _Does minimum wage lead to increases in unemployment_?
-- We need a setting to study this. For example, in 1993 NJ rose minimum wage from 4.25 to 5.05.
-
-
-__Q2__: What .pink[comparisons could you make] to under the the effect of NJ min wage on unemployment?
-
-1. Compare average unemployment in NJ .pink[before] and .purple[after] the policy
-2. Also could compare average unemployment in .pink[NJ] to .purple[other states] (where min wage remained the same) 
-
-
----
-
-
-
-count: false
-# Setup
-
-__Q1__:  _Does minimum wage lead to increases in unemployment_?
-- We need a setting to study this. For example, in 1993 NJ rose minimum wage from 4.25 to 5.05.
-
-
-__Q2__: What .pink[comparisons could you make] to under the the effect of NJ min wage on unemployment?
-
-1. Compare average unemployment in NJ .pink[before] and .purple[after] the policy
-2. Also could compare average unemployment in .pink[NJ] to .purple[other states] (where min wage remained the same) 
-
-__Q3__: .hi[Problems?]
-
-
----
-
-
-
-
-
-
-count: false
-# Setup
-
-__Q1__:  _Does minimum wage lead to increases in unemployment_?
-- We need a setting to study this. For example, in 1993 NJ rose minimum wage from 4.25 to 5.05.
-
-
-__Q2__: What .pink[comparisons could you make] to under the the effect of NJ min wage on unemployment?
-
-1. Compare average unemployment in NJ .pink[before] and .purple[after] the policy
-2. Also could compare average unemployment in .pink[NJ] to .purple[other states] (where min wage remained the same) 
-
-__Q3__: .hi[Problems?]
-
-1. Other factors could be influencing unemployment at same time as NJ as min wage implementation
-
-
----
-
-
-
-
-count: false
-# Setup
-
-__Q1__:  _Does minimum wage lead to increases in unemployment_?
-- We need a setting to study this. For example, in 1993 NJ rose minimum wage from 4.25 to 5.05.
-
-
-__Q2__: What .pink[comparisons could you make] to under the the effect of NJ min wage on unemployment?
-
-1. Compare average unemployment in NJ .pink[before] and .purple[after] the policy
-2. Also could compare average unemployment in .pink[NJ] to .purple[other states] (where min wage remained the same) 
-
-__Q3__: .hi[Problems?]
-
-1. Other factors could be influencing unemployment at same time as NJ as min wage implementation
-2. Could be _many_ things that cause average wages to be different in NJ and other states (not related to min wage)
-
-
----
-
-
-
-
-
-
-
-# Issues
-
-## A high bar
-
-Both issues discussed on the last slides were violations of the _.pink[all else equal]_ assumption
-
---
-
-When _.pink[all]_ factors are held constant, statistical comparisons detect .pink[causal relationships]. You have likely heard the saying:
+When _.hii[all]_ factors are held constant, statistical comparisons detect .hi[causal relationships]. You have likely heard the saying:
 
 &gt; Correlation is not causation
 
 --
 
---
-
-- This saying just points out that often times there are .purple[violations] of the .pink[all else equal assumption]
+- Often times there are violations of the .hii[all else equal assumption]
 
 --
 
---
-
-- Although correlation is not causation, .hi[causation requires correlation]
-
---
-
-.hi.slate[New saying:]
+.hi[New saying:]
 
   &gt; Correlation + all else equal is causation.
   
 ---
-
-
-
 # Path to Causality
 
-So our minimum wage comparisons might and probably violate the .pink[all else equal] assumption. What is a possible solution?
+So the minimum wage comparison we made probably violates the .hii[all else equal] assumption
 
+How might we solve this problem?
 
+--
 
-## Random Experiments
+.center[.hi[Random Experiments]]
 
----
+--
 
-
-
-
-count: false
-# Path to Causality
-
-So our minimum wage comparisons might and probably violate the .pink[all else equal] assumption. What is a possible solution?
-
-
-
-## Random Experiments
-
-
-- Ideally, we would randomly assign firms to have min wage 
+Ideally, we would randomly assign firms to have min wage 
 - Randomization helps us maintain the _all else equal_ assumption 
 
+--
 
+Here we have __two groups__:
 
----
+1. .hi[Treatment:] Assigned minimum wage
 
+2. .hi[Control:] Not assigned minimum wage
 
+--
 
-
-
-
-
-count: false
-# Path to Causality
-
-So our minimum wage comparisons might and probably violate the .pink[all else equal] assumption. What is a possible solution?
-
-
-
-## Random Experiments
-
-
-- Ideally, we would randomly assign firms to have min wage.  
-- Randomization helps us maintain the _all else equal_ assumption 
-
-
-
-- Here we have __two groups__:
-
-  1. .hi.slate[Treatment:] Assigned minimum wage
-
-
-
----
-
-
-
-
-
-
-count: false
-# Path to Causality
-
-So our minimum wage comparisons might and probably violate the .pink[all else equal] assumption. What is a possible solution?
-
-
-
-## Random Experiments
-
-
-- Ideally, we would randomly assign firms to have min wage.  
-- Randomization helps us maintain the _all else equal_ assumption 
-
-
-
-- Here we have __two groups__:
-
-  1. .hi.slate[Treatment:] Assigned minimum wage
-  2. .hi.slate[Control:] Not assigned minimum wage
-
-
-
-
-
----
-
-
-
-
-count: false
-# Path to Causality
-
-So our minimum wage comparisons might and probably violate the .pink[all else equal] assumption. What is a possible solution?
-
-
-
-## Random Experiments
-
-
-- Ideally, we would randomly assign firms to have min wage.  
-- Randomization helps us maintain the _all else equal_ assumption 
-
-
-
-- Here we have __two groups__:
-
-  1. .hi.slate[Treatment:] Assigned minimum wage
-  2. .hi.slate[Control:] Not assigned minimum wage
-
-
-
-
-
-- .hi[Average Treatment Effect]: ATE = Average(treated) - Average(control)
-   - Unobservable/observable differences average out to zero due to random assignment
+.hi[Average Treatment Effect]: ATE = Average(treated) - Average(control)
+- Unobservable/observable differences average out to zero due to random assignment
   
-
-
-
 ---
-
-
-
 # Problem
 
 We can't randomly assign firms to minimum wage. If we _invited_ firms to participate (very few would, probably), we would have .hi[selection bias] (non-random assignment of treatment)
@@ -1214,166 +522,48 @@ We can't randomly assign firms to minimum wage. If we _invited_ firms to partici
 
 --
 
-## What do we do?
+.hi[What do we do?]
 
 --
 
 1. Give up
 
-2. Think of a different comparison that gets us closer to all else equal.
-
----
-
-
-count: false
-# Problem
-
-We can't randomly assign firms to minimum wage. If we _invited_ firms to participate (very few would, probably), we would have .hi[selection bias] (non-random assignment of treatment)
-
-- Simple comparisons of treatment and control units might violate .pink[all else equal] 
-
-
-
-## What do we do?
-
-
-1. Give up
+--
 
 2. .hi[Think of a different comparison that gets us closer to all else equal.]
 
 ---
 
-# Another Comparsion
+# A difference in differences
 
-So we tried:
+.hi[We tried:]
 
-1) Comparing NJ to itself before and after the policy ❌
+.hi[(i).] Comparing NJ to itself before and after the policy ❌
 
+--
 
+.hi[(ii).] Comparing NJ to another state after the policy ❌
 
----
+--
 
+.hii[Another idea:] Take two differences
 
-count: false
-# Another Comparsion
+--
 
-So we tried:
+What if we .hii[compared the difference] between NJ and another state .hi[before] &amp; after the minimum wage?
 
-1) Comparing NJ to itself before and after the policy ❌
+--
 
-2) Comparing NJ to another state after the policy ❌
-
-
-
----
-
-
-
-
-
-
-
-
-
-
-count: false
-# Another Comparsion
-
-So we tried:
-
-1) Comparing NJ to itself before and after the policy ❌
-
-2) Comparing NJ to another state after the policy ❌
-
-
-
-Here is __another idea__: 
-
----
-
-
-
-
-
-count: false
-# Another Comparsion
-
-So we tried:
-
-1) Comparing NJ to itself before and after the policy ❌
-
-2) Comparing NJ to another state after the policy ❌
-
-
-
-Here is __another idea__: 
-
-- What if we .pink[compared] the .purple[difference] between NJ and another state .hi[before] __&amp;__ after the minimum wage?
-
----
-
-
-
-
-
-
-
-count: false
-# Another Comparsion
-
-So we tried:
-
-1) Comparing NJ to itself before and after the policy ❌
-
-2) Comparing NJ to another state after the policy ❌
-
-
-
-Here is __another idea__: 
-
-- What if we .pink[compared] the .purple[difference] between NJ and another state .hi[before] __&amp;__ after the minimum wage?
-
-  - If the _.pink[pre-treatment]_ difference is constant, then comparing this to the _.purple[post-treatment]_ should give us the treatment effect of the policy.
+If the .hii[pre-treatment] difference is constant, then comparing this to the .hi[post-treatment] should give us the treatment effect of the policy.
   
+--
 
-
----
-
-
-
-
-
-
-
-count: false
-# Another Comparsion
-
-So we tried:
-
-1) Comparing NJ to itself before and after the policy ❌
-
-2) Comparing NJ to another state after the policy ❌
-
-
-
-Here is __another idea__: 
-
-- What if we .pink[compared] the .purple[difference] between NJ and another state .hi[before] __&amp;__ after the minimum wage?
-
-  - If the _.pink[pre-treatment]_ difference is constant, then comparing this to the _.purple[post-treatment]_ should give us the treatment effect of the policy.
-  
-
-
-- This is called the .hi[Difference in Differences] estimator (or DiD, double diff, etc.)
-
-
+This is called the .hi[Difference in Differences] estimator (or DiD, double diff, etc.)
 
 ---
-
-
 # Differences-in-Differences 
 
-## Card and Krueger (1994)
+.hi[Card and Krueger (1994)]
 
 .center[**Effect of Minimum Wage on Employment**]
 &lt;table class="table" style="margin-left: auto; margin-right: auto;"&gt;
@@ -1410,7 +600,7 @@ Difference-in-differences .mono[=]
 count: false
 # Differences-in-Differences 
 
-## Card and Krueger (1994)
+.hi[Card and Krueger (1994)]
 
 .center[**Effect of Minimum Wage on Employment**]
 &lt;table class="table" style="margin-left: auto; margin-right: auto;"&gt;
@@ -1447,7 +637,7 @@ Difference-in-differences .mono[=]
 count: false
 # Differences-in-Differences 
 
-## Card and Krueger (1994)
+.hi[Card and Krueger (1994)]
 
 .center[**Effect of Minimum Wage on Employment**]
 &lt;table class="table" style="margin-left: auto; margin-right: auto;"&gt;
@@ -1487,9 +677,6 @@ Difference-in-differences .mono[=] -.pink[0.14] .mono[-] .purple[-2.89]
 **Result:** Increasing the minimum wage did not reduce employment!
 
 ---
-
-
-
 # DiD Plot
 
 
@@ -1543,11 +730,6 @@ To be clear, the average treatment effect, `\(\tau\)` is given by:
 \end{align*}`
 
 ---
-
-
-
-
-
 # The Evidence and Metrics
 
 - [Card &amp; Krueger (1993)](https://www.nber.org/papers/w4509) _Minimum Wages and Employment: A Case Study of the Fast Food Industry in New Jersey and Pennsylvania_
@@ -1566,66 +748,26 @@ To be clear, the average treatment effect, `\(\tau\)` is given by:
 
 # Metrics
 
-## Research Design
+.hi[Research Design]
 
  - Compares employment of fast food restaurants in NJ to Pennsylvania (where min wage stayed at $4.25) 
  - .pink[Treatment]: NJ, .purple[Control]: Pennsylvania
 
----
+--
 
-
-count: false
-# Metrics
-
-## Research Design
-
- - Compares employment of fast food restaurants in NJ to Pennsylvania (where min wage stayed at $4.25) 
- - .pink[Treatment]: NJ, .purple[Control]: Pennsylvania
  - .hi[DiD estimates] of min wage effect on unemployment, prices, and wages
 
----
+--
 
-
-
-
-count: false
-# Metrics
-
-## Research Design
-
- - Compares employment of fast food restaurants in NJ to Pennsylvania (where min wage stayed at $4.25) 
- - .pink[Treatment]: NJ, .purple[Control]: Pennsylvania
- - .hi[DiD estimates] of min wage effect on unemployment, prices, and wages
- 
- 
-## Main Findings
+.hii[Main Findings]
  
  1. Policy _increased_ employment in NJ fast food establishments by a whopping .hi[13]%
 
----
+--
 
-
-
-count: false
-# Metrics
-
-## Research Design
-
- - Compares employment of fast food restaurants in NJ to Pennsylvania (where min wage stayed at $4.25) 
- - .pink[Treatment]: NJ, .purple[Control]: Pennsylvania
- - .hi[DiD estimates] of min wage effect on unemployment, prices, and wages
- 
- 
-## Main Findings
- 
- 1. Policy _increased_ employment in NJ fast food establishments by a whopping .hi[13]%
  2. Business increased prices, .pink[suggesting] that most of the burden of the min wage was handed to others
 
 ---
-
-
-
-
 # Comments
 
 - Pretty clear result from the paper: minimum wage increased employment .hi[in fast food, in NJ].
@@ -1633,20 +775,18 @@ count: false
 
 --
 
-## Issues
+.hi[Issues]
 
 - Nothing about hours worked. Employment might have increased, but its not clear that average number of hours worked increased
 
   - .qa[Q]: Do we care about unemployment? Or do we care about maximizing incomes for the largest group of people? Different things.
-
---
 
 ---
 
 
 # Another Problem
 
-## Issues part 2
+.hi[Issues] part ii
 
 
 The .pink[mechansim] for the increase is not tested or clear. Possible stories:
@@ -1663,34 +803,21 @@ The .pink[mechansim] for the increase is not tested or clear. Possible stories:
 .hi.slate[Policy Implications] will depend .hi[heavily] on what the underlying mechanism is. If most of the results are driven by 1, maybe the net-effect on employment is negative. 
 
 ---
-
 # Internal Vs. External Validity
 
-## .pink[Internal Validity] 
+.hi[Internal Validity] 
 
-Addresses the question: _.pink[should we believe this study?]_
+Addresses the question: _.blue[should we believe this study?]_
 
 --
 
-  - A study has internal validity if we believe the .hi[causal effect] of a variable on another variable has been .purple[well identified] (ie: we have maintained .pink[all else equal])
+A study has internal validity if we believe the .hi[causal effect] of a variable on another variable has been .purple[well identified] (ie: we have maintained .pink[all else equal])
   
 --
 
----
+.hii[External Validity]
 
-
-count: false
-# Internal Vs. External Validity
-
-## .pink[Internal Validity] 
-
-Addresses the question: _.pink[should we believe this study?]_
-
-  - A study has internal validity if we believe the .hi[causal effect] of a variable on another variable has been .purple[well identified] (ie: we have maintained .pink[all else equal])
-  
-## .purple[External Validity]
-
-Addresses the question: _.purple[how far can we generalize the results of this study?]_
+Addresses the question: _.blue[how far can we generalize the results of this study?]_
 
 --
 
@@ -1698,48 +825,13 @@ Addresses the question: _.purple[how far can we generalize the results of this s
   
 --
 
-__Card &amp; Krueger:__ very hard to argue external validity
+.hi[Card &amp; Krueger] very hard to argue external validity
 
 
 ---
-
-
-
 
 class: inverse, middle
-# Checklist
-
-.col-left[
-1) .hi[Monopsony] ✅
-
-  - Monopsony Outcome vs Competitive Outcome
-  
-  - Min wage in monopsony
-  
-
-
-2) .hi[Discussion] ✅
-
-]
-
-
-.col-right[
-
-3) .hi[Empirics] ✅
-
-  - Treatment and control effects
-  - The ideal experiment
-  - Making Comparisons
-  - Diff in Diff
-  - External vs Internal Validity
-
-]
-
----
-
-exclude: true
-
-
+# Fin
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

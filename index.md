@@ -93,6 +93,15 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 	- [slides](slides/007-labor/07-labor.html), [pdf](slides/007-labor/07-labor.pdf)
 	- Reading Chapter 6 of TotC
 
+  - __Lecture 14:__ _Veterans day- no lecture_
+
+- __Week 08:__
+
+  - __Lecture 15:__ Minimum wage
+        - [slides](slides/008-mw-causality/08-mw-causality.html)
+	- Reading Chapter 6 of TofC
+
+
 ## Acknowledgements
 
 Much of this course material is derived from [John Morehouse's Urban course](https://github.com/johnmorehouse/EC330_UrbanEcon) and [Mike Urbancic's](https://twitter.com/Urbancic) course. 

@@ -115,7 +115,7 @@ theme_curves <- theme_ipsum() + theme(axis.line = element_line(),
         panel.grid.minor = element_blank())
 ```
 
-# Lecture 13: Minimum Wage, Monopsony & Empirics
+# Lecture 08: Minimum Wage, Monopsony & Empirics
 
 ---
 class: inverse, middle
@@ -124,7 +124,7 @@ class: inverse, middle
 .pull-left[
 .ul[.bigger[.hi-gold[Today:]]]
 
-.hi-white[(i). The mimimum wage]
+.hi-white[(i). The minimum wage]
 
 .hi-white[(ii). Rent control and LUR]
 
@@ -137,9 +137,9 @@ class: inverse, middle
 .pull-right[
 .ul[.bigger[.hi-gold[Upcoming:]]]
 
-  - .hi-white[Reading] (Chapter 7)
+  - .hi-white[Reading] (Chapter 7 + 8)
   
-  - .hi-white[Problem set 02 due Wednesday night]
+  - .hi-white[Problem set 03 will be posted Wednesday night]
   
 ]
 

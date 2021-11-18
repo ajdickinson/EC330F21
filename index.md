@@ -14,7 +14,7 @@ Course material links:
 	- [Triumph of the Cities](http://www.smart-city.institute/library/book/triumph_of_the_city.pdf)
 	- [Urban Economics (O'Sullivan)](resources/O'Sullivan_Urban_Economics_8th.pdf) 
   - [Practice midterm](practice-exams/practice-exam-fall21.pdf)  
-  - [TotC report rubric](report/ec330-TofC-rubric.pdf)
+  - [TotC report rubric](report/ec330-TotC-rubric.pdf)
 
 ## Schedule
 

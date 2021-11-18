@@ -14,6 +14,7 @@ Course material links:
 	- [Triumph of the Cities](http://www.smart-city.institute/library/book/triumph_of_the_city.pdf)
 	- [Urban Economics (O'Sullivan)](resources/O'Sullivan_Urban_Economics_8th.pdf) 
   - [Practice midterm](practice-exams/practice-exam-fall21.pdf)  
+  - [TotC report rubric](report/ec330-TofC-rubric.pdf)
 
 ## Schedule
 
@@ -97,10 +98,13 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 
 - __Week 08:__
 
-  - __Lecture 15:__ Minimum wage
+  - __Lecture 15:__ Minimum wage + Causal inference
 	- [slides](slides/008-mw-causality/08-mw-causality.html), [pdf](slides/008-mw-causality/08-mw-causality.pdf)
 	- Reading Chapter 7 of TofC
-
+  
+  - __Lecture 16:__ Causal inference + Place based policies
+	- [slides](slides/009-pb-policy/09-pb-policy.html), [pdf](slides/009-pb-policy/09-pb-policy.pdf)
+	- Reading Chapter 7 + 8
 
 ## Acknowledgements
 

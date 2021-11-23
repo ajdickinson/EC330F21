@@ -106,6 +106,18 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 	- [slides](slides/009-pb-policy/09-pb-policy.html), [pdf](slides/009-pb-policy/09-pb-policy.pdf)
 	- Reading Chapter 7 + 8
 
-## Acknowledgements
+- __Week 09:__
+
+  - __Lecture 17:__ Causal inference + Place based policies
+	- [slides](slides/009-pb-policy/09-pb-policy.html), [pdf](slides/009-pb-policy/09-pb-policy.pdf)
+	- Reading finish TotC
+    - PS03 due Nov 30
+
+  - __Lecture 18:__ _Thanksgiving_ (no lecture)
+	- Reading finish TotC
+    - PS03 due Nov 30
+
+
+# Acknowledgements
 
 Much of this course material is derived from [John Morehouse's Urban course](https://github.com/johnmorehouse/EC330_UrbanEcon) and [Mike Urbancic's](https://twitter.com/Urbancic) course. 

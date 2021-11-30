@@ -11,6 +11,7 @@ output:
       highlightStyle: github
       highlightLines: true  
       countIncrementalSlides: false
+#knit: pagedown::chrome_print
 ---
 class: inverse, center, middle
 
@@ -509,19 +510,19 @@ Scarcity gives us constraints and we do the best _we can_ s.t. constraints
 ---
 # Economics "wheelhouse"
 
-Explain how people and firms .hi[actually behave]; less about how they _should behave_
-
-- Normative vs positive statements
+Explain how actors .hi[actually behave]; less about how they _should behave_
 
 --
 
-  - Normative statements: Matters of opinion that may never be resolved
+Normative statements: Matters of opinion; may never be resolved
+- Higher ed should be free
   
-  - .hii[Positive statements:] Matters of fact that can be resolved by data
+.hii[Positive statements:] Matters of fact that can be resolved by data
+- Who should get federal grants? The best students or the most needy students?
   
 --
 
-- Figure out what the data say for evidence-based policy making
+Figure out what the data say for evidence-based policy making
 
 --
 

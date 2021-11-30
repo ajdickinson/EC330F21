@@ -111,12 +111,24 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
   - __Lecture 17:__ Causal inference + Place based policies
 	- [slides](slides/009-pb-policy/09-pb-policy.html), [pdf](slides/009-pb-policy/09-pb-policy.pdf)
 	- Reading finish TotC
-    - PS03 due Nov 30
+    - PS03 due Dec 02
 
   - __Lecture 18:__ _Thanksgiving_ (no lecture)
 	- Reading finish TotC
-    - PS03 due Nov 30
+    - PS03 due Dec 02
 
+- __Week 10:__
+
+  - __Lecture 19:__ Rental markets
+    - [slides](slides/010-housing/10-housing.html), [pdf](slides/010-housing/10-housing.pdf)
+    - Reading finish TotC
+    - PS03 due Dec 02
+    - TotC book report due Dec 05
+
+  - __Lecture 20:__ Economics of social mobility
+    - Reading finish TotC
+    - PS03 due tonight (Dec 02) at midnight
+    - TotC book report due Dec 05
 
 # Acknowledgements
 

@@ -7,7 +7,7 @@ Course material links:
   - Problem sets
 	- [PS01](problem-sets/ps01/ps01.pdf)
 	- [PS02](problem-sets/ps02/ps02.pdf)
-	- [PS03](problem-sets/ps03/ps03.pdf), [PS03-whitespace](problem-sets/ps03/ps03-whitespace.pdf) (for more whitespace)
+	- [PS03](problem-sets/ps03/ps03.pdf), [PS03-whitespace](problem-sets/ps03/ps03-whitespace.pdf) (for more whitespace) [key](problem-sets/ps03-key.pdf)
 	- [PS04](problem-sets/ps04/ps04.pdf)
   - TotC Rubric (not posted yet)
   - External resources
@@ -121,11 +121,13 @@ __Office hours:__ 14:00 to 15:00 Wednesday, 10:00-11:00 Friday
 
   - __Lecture 19:__ Rental markets
     - [slides](slides/010-housing/10-housing.html), [pdf](slides/010-housing/10-housing.pdf)
+    - [In class example](slides/010-housing/rc-lur-example.pdf)
     - Reading finish TotC
     - PS03 due Dec 02
     - TotC book report due Dec 05
 
   - __Lecture 20:__ Economics of social mobility
+    - [slides](slides/011-opportunity/11-opportunity.html), [pdf](slides/011-opportunity/11-opportunity.html)
     - Reading finish TotC
     - PS03 due tonight (Dec 02) at midnight
     - TotC book report due Dec 05

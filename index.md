@@ -7,7 +7,7 @@ Course material links:
   - Problem sets
 	- [PS01](problem-sets/ps01/ps01.pdf)
 	- [PS02](problem-sets/ps02/ps02.pdf)
-	- [PS03](problem-sets/ps03/ps03.pdf), [PS03-whitespace](problem-sets/ps03/ps03-whitespace.pdf) (for more whitespace) [key](problem-sets/ps03-key.pdf)
+	- [PS03](problem-sets/ps03/ps03.pdf), [PS03-whitespace](problem-sets/ps03/ps03-whitespace.pdf) (for more whitespace) [key](problem-sets/ps03/ps03-key.pdf)
 	- [PS04](problem-sets/ps04/ps04.pdf)
   - TotC Rubric (not posted yet)
   - External resources

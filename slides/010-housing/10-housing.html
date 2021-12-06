@@ -8,6 +8,12 @@
     <link href="11-housing_files/remark-css/default.css" rel="stylesheet" />
     <link href="11-housing_files/remark-css/metropolis.css" rel="stylesheet" />
     <link href="11-housing_files/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link href="11-housing_files/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="11-housing_files/tile-view/tile-view.js"></script>
+    <script src="11-housing_files/fabric/fabric.min.js"></script>
+    <link href="11-housing_files/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
+    <script src="11-housing_files/xaringanExtra-scribble/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
     <link rel="stylesheet" href="padres.css" type="text/css" />
   </head>
   <body>
@@ -17,7 +23,7 @@ class: center, middle, inverse, title-slide
 # Econ 330: Urban Economics
 ## Lecture 11
 ### Andrew Dickinson
-### 28 October, 2021
+### 06 December, 2021
 
 ---
 
@@ -28,313 +34,170 @@ class: inverse, center, middle
 
 
 # Lecture 11: Housing Policy
+
+
 ---
-
-
-name: schedule
+class: inverse, middle
 # Schedule
 
-## Today
+.pull-left[
+.ul[.bigger[.hi-gold[Today:]]]
+
+.hi-white[(i). Intro to housing markets]
+
+.hi-white[(i). Rental markets]
+
+- .white[Monopolists]
+
+]
 
 --
 
-1) .hi.purple[Introduction]
+.pull-right[
+.ul[.bigger[.hi-gold[Upcoming:]]]
 
-2) .hi.purple[Two Models]
-
-3) .hi.purple[Cross-City Variation] 
-
-4) .hi.purple[Two Policies]
-
-
---
-
---
-
-## Upcoming
-
-  - .hi.slate[HW3]
+  - .hi-white[Reading] (Chapter 7)
   
-  - .hi.slate[Reading] (Chapter 9)
+  - .hi-white[Problem set 02 will be posted tonight or tomorrow morning]
+  
+]
+
+
+---
+# Housing markets 
+
+Distinguish the following two markets:
+
+- .hi[Rental Market:] Supply and Demand for rentals
+
+- .hii[Housing Market:] Supply and Demand for houses
 
 --
-
----
-
-
-
-
-# Housing Markets 
-
-Before we dive in, let's distinguish the following:
-
-- .hi[Rental] Market: Supply and Demand for .pink[rentals] 
-
-- .hi.purple[Housing Market]: Supply and Demand for .purple[houses]
-
-
----
-
-
-
-
-
-
-
-count: false
-# Housing Markets 
-
-Before we dive in, let's distinguish the following:
-
-- .hi[Rental] Market: Supply and Demand for .pink[rentals] 
-
-- .hi.purple[Housing Market]: Supply and Demand for .purple[houses]
-
 
 Why is it important to distinguish these? Aren't they both markets for living spaces? .hi[Discuss]
 
+--
 
----
-
-
-
-
-count: false 
-# Housing Markets 
-
-Before we dive in, let's distinguish the following:
-
-- .hi[Rental] Market: Supply and Demand for .pink[rentals] 
-
-- .hi.purple[Housing Market]: Supply and Demand for .purple[houses]
-
-
-Why is it important to distinguish these? Aren't they both markets for living spaces? .hi[Discuss]
-
-
-  - A house is an asset. A month of rent is not
+ - A house is an asset. A month of rent is not
   
-  - Homeowners are much less mobile than renters
+ - Homeowners are much less mobile than renters
   
-  
-
 ---
 
-
-
-
-count: false
 # Homeownership
 
-Why is buying a home different than buying a pair of jeans? (other than the difference in price)
+.center[.hi[Why is buying a home different than buying a pair of jeans?]]
 
+--
 
+.center[.hii[Houses are a major investment and store of value (equity)]]
 
+--
 
----
-
-
-
-
-
-
-
-count: false
-# Homeownership
-
-Why is buying a home different than buying a pair of jeans? (other than the difference in price)
-
-
- A house is a store of value. This value is subject to uncertainty. (This is what I mean by asset)
+Homeownership remains a key component of household wealth
+- The value is subject to some uncertainty
  
+--
 
-
-
-
----
-
-
-
-
-count: false
-# Homeownership
-
-Why is buying a home different than buying a pair of jeans? (other than the difference in price)
-
-
-A house is a store of value. This value is subject to uncertainty. (This is what I mean by asset)
+&lt;br&gt;
  
- - Fundamentally, purchasing a home is a dynamic (forward-looking) decision
- 
- - Jeans (a pure consumption good) is not really a store of value
+Purchasing a home is a .hi[dynamic] (forward-looking) decision
 
+Jeans (a pure consumption good) is not really a store of value
 
+--
 
----
-
-
-
-
-
-count: false
-# Homeownership
-
-Why is buying a home different than buying a pair of jeans? (other than the difference in price)
-
-
-A house is a store of value. This value is subject to uncertainty. (This is what I mean by asset)
- 
- - Fundamentally, purchasing a home is a dynamic (forward-looking) decision
- 
- - Jeans (a pure consumption good) is not really a store of value
-
-
-
-We will focus on renters. But first let's take a look at some data
-
-
+.center[.hi[We will focus on renters. But first let's take a look at some data]]
 
 ---
 # Rentals vs Homeowners
 
 .center[
-![:scale 65%](figures/ownership_plot.png)
+![:scale 60%](figures/ownership_plot.png)
 ]
 
 --
 
-Why such a big spike?
+.smallerer[Why such a big spike?]
 
 ---
-# Housing crisis
+# Housing prices (nominal)
 
-
-
-
----
-class: inverse, middle
-# Checklist
-
-.pull-left[
-
-1) .hi[Introduction] ✅
-
-
-
-2) .hi.purple[Two Models] 
-
-
-]
-
-.pull-right[
-3) .hi.purple[Two Policies]
+.center[
+![:scale 80%](./figures/nominal-prices.png)
 ]
 
 ---
+# Housing inventory
 
+.center[
+![:scale 80%](./figures/inventory.png)
+]
 
-# Rental Market Model
+---
+# Housing crisis (summarized)
 
-Just like labor markets, each city has its own market for rental units 
+.center[.hi[What caused the housing market crash in 2007?]]
+
+--
+
+.center[.hii[Among many other things, subprime mortgages]]
+
+--
+
+Mortgage lenders took too much risk by extending loans the millions of Americans who could not afford them
+
+--
+
+These high risk, subprime loans were bundled into different "troughs" with lower risk loans and sold them to banks
+
+--
+
+Rating agencies didn't fully understand the risk associated with these loans and granted high grades (AA) to highly risky investment products
+
+--
+
+When housing prices stopped growing, and high interest rates set in on adjustable loans, massive amounts of people defaulted
+
+--
+
+People shorted the banks on their investments and it lead to a massive financial crisis
 
 
 ---
-
-
-
-count: false
-# Rental Market Model
-
-Just like labor markets, each city has its own market for rental units 
-
-- Consists of suppliers (absentee landlords) 
-
+class: inverse, middle, center
+# Rental markets
 
 ---
-
-
-
-count: false
-# Rental Market Model
+# Rental market model
 
 Just like labor markets, each city has its own market for rental units 
-
 - Consists of suppliers (absentee landlords) 
-
 - Individuals making optimal housing demand decisions
 
+--
 
----
+.hi[Important:] Firms (landlords) supply housing to households
 
+--
 
+.hi[Assumptions:]
 
+--
 
-count: false
-# Rental Market Model
+.hii[(i).] No individual landlord can influence the price of rents
 
-Just like labor markets, each city has its own market for rental units 
+--
 
-- Consists of suppliers (absentee landlords) 
+.hii[(ii).] Landlords decide how much housing to provide
 
-- Individuals making optimal housing demand decisions
+--
 
-__Important__: Structure of the market has big implications for policy
-
----
-
-
-
-# Competitive Model
-
-Very similar to the competitive labor market model
+.hii[(iii).] The amount of housing they provide will again come from profit maximization
 
 
 ---
-
-count: false
-# Competitive Model
-
-Very similar to the competitive labor market model
-
-1) No individual landlord can influence the price of rents
-
----
-
-
-
-count: false
-# Competitive Model
-
-Very similar to the competitive labor market model
-
-1) No individual landlord can influence the price of rents
-
-2) Landlords decide how much housing to provide
-
----
-
-
-
-count: false
-# Competitive Model
-
-Very similar to the competitive labor market model
-
-1) No individual landlord can influence the price of rents
-
-2) Landlords decide how much housing to provide
-
-3) The amount of housing they provide will again come from profit maximization
-
-__Important__: Labor market model: firm was deciding how much labor to hire. Now we will model the landlord as picking a quantity of housing to provide
-
----
-
-
-
-
-
-# Competitive Model Math
+# Rental market model: Perf Comp
 
 Profit function given by:
 
@@ -342,95 +205,27 @@ Profit function given by:
 \pi(Q) = P*Q - TC(Q)
 \end{align*}`
 
+--
 
----
+.hi[Note:] Now cost is a function of quantity
 
+--
 
+Implicitly we are assuming that at any quantity, the firm will use the optimal level of labor and capital
 
-
-count: false
-# Competitive Model Math
-
-Profit function given by:
-
-`\begin{align*}
-\pi(Q) = P*Q - TC(Q)
-\end{align*}`
-
-- __Note__: Now cost is a function of quantity
-
-
----
-
-
-count: false
-# Competitive Model Math
-
-Profit function given by:
-
-`\begin{align*}
-\pi(Q) = P*Q - TC(Q)
-\end{align*}`
-
-- __Note__: Now cost is a function of quantity
-
-  - Implicitly we are assuming that at any quantity, the firm will use the optimal level of labor and capital
-
----
-
-
-
-
-
-count: false
-# Competitive Model Math
-
-Profit function given by:
-
-`\begin{align*}
-\pi(Q) = P*Q - TC(Q)
-\end{align*}`
-
-- __Note__: Now cost is a function of quantity
-
-  - Implicitly we are assuming that at any quantity, the firm will use the optimal level of labor and capital
-
+--
 
 Marginal profit equals zero , `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
 
-
----
-
-
-
-
-
-count: false
-# Competitive Model Math
-
-Profit function given by:
-
-`\begin{align*}
-\pi(Q) = P*Q - TC(Q)
-\end{align*}`
-
-- __Note__: Now cost is a function of quantity
-
-  - Implicitly we are assuming that at any quantity, the firm will use the optimal level of labor and capital
-
-
-Marginal profit equals zero, `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
+--
 
 `\begin{align*}
  \frac{P*\Delta Q}{\Delta Q} - \frac{\Delta TC(Q)}{\Delta Q} = 0
 \end{align*}`
 
 ---
-
-
-
 count: false
-# Competitive Model Math
+# Rental market model: Perf Comp
 
 Profit function given by:
 
@@ -438,12 +233,11 @@ Profit function given by:
 \pi(Q) = P*Q - TC(Q)
 \end{align*}`
 
-- __Note__: Now cost is a function of quantity
+.hi[Note:] Now cost is a function of quantity
 
-  - Implicitly we are assuming that at any quantity, the firm will use the optimal level of labor and capital
+Implicitly we are assuming that at any quantity, the firm will use the optimal level of labor and capital
 
-
-Marginal profit equals zero, `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
+Marginal profit equals zero , `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
 
 `\begin{align*}
  \frac{P*\Delta Q}{\Delta Q} - \frac{\Delta TC(Q)}{\Delta Q} &amp;= 0\\
@@ -451,11 +245,8 @@ Marginal profit equals zero, `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
 \end{align*}`
 
 ---
-
-
-
 count: false
-# Competitive Model Math
+# Rental market model: Perf Comp
 
 Profit function given by:
 
@@ -463,12 +254,11 @@ Profit function given by:
 \pi(Q) = P*Q - TC(Q)
 \end{align*}`
 
-- __Note__: Now cost is a function of quantity
+.hi[Note:] Now cost is a function of quantity
 
-  - Implicitly we are assuming that at any quantity, the firm will use the optimal level of labor and capital
+Implicitly we are assuming that at any quantity, the firm will use the optimal level of labor and capital
 
-
-Marginal profit equals zero, `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
+Marginal profit equals zero , `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
 
 `\begin{align*}
  \frac{P*\Delta Q}{\Delta Q} - \frac{\Delta TC(Q)}{\Delta Q} &amp;= 0\\
@@ -477,11 +267,8 @@ Marginal profit equals zero, `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
 \end{align*}`
 
 ---
-
-
-
 count: false
-# Competitive Model Math
+# Rental market model: Perf Comp
 
 Profit function given by:
 
@@ -489,12 +276,11 @@ Profit function given by:
 \pi(Q) = P*Q - TC(Q)
 \end{align*}`
 
-- __Note__: Now cost is a function of quantity
+.hi[Note:] Now cost is a function of quantity
 
-  - Implicitly we are assuming that at any quantity, the firm will use the optimal level of labor and capital
+Implicitly we are assuming that at any quantity, the firm will use the optimal level of labor and capital
 
-
-Marginal profit equals zero, `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
+Marginal profit equals zero , `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
 
 `\begin{align*}
  \frac{P*\Delta Q}{\Delta Q} - \frac{\Delta TC(Q)}{\Delta Q} &amp;= 0\\
@@ -502,137 +288,58 @@ Marginal profit equals zero, `\(\frac{\Delta \pi(Q)}{\Delta Q}= 0\)`:
  P &amp;= MC(Q)
 \end{align*}`
 
-- .pink[Increasing Marginal costs] `\(\implies\)` .pink[upward sloping supply curves!]
-
-
----
-
-
-# The Monopoly Model
-
-Now let's consider the monopoly situation:
-
+.center[.hi[Increasing marginal costs leads to upward sloping supply curves!]]
 
 ---
+class: inverse, center, middle
 
-
-
-count: false
-# The Monopoly Model
-
-Now let's consider the monopoly situation:
-
-1) One seller of the good (rental units)
-
+# Monopoly
 
 ---
+# Rental market model: Monopoly
 
+Now let's consider the .hi[monopoly] situation:
 
+--
 
-count: false
-# The Monopoly Model
+.hi[Assume:]
 
-Now let's consider the monopoly situation:
+--
 
-1) One seller of the good (rental units)
+.hii[(i).] One seller of the good (rental units)
 
-2) Ability to set prices
+--
 
+.hii[(ii).] The monopolist has market power; ability to set prices
 
----
+--
 
-
-count: false
-# The Monopoly Model
-
-Now let's consider the monopoly situation:
-
-1) One seller of the good (rental units)
-
-2) Ability to set prices
-
-3) Still profit maximizing
+.hii[(iii).] The monopolist is a profit maximizer
 
 ---
+# Rental market model: Monopoly
 
-# Monopoly: Math
+Equilibrium relies on the assumption that firms maximize profits
 
-- Again, the monopolist will still be a profit-maximizer
+--
 
----
+Now TR is a function of quantity
 
+`\begin{equation*}
+TR = P(Q)*Q
+\end{equation*}`
 
+--
 
-count: false
-# Monopoly: Math
+Quantity of houses that the monopolist produces changes the market price
 
-Again, the monopolist will still be a profit-maximizer
+--
 
-- TR is now given by: `\(TR = P(Q)*Q\)`
-
-
----
-
-
-
-
-count: false
-# Monopoly: Math
-
-Again, the monopolist will still be a profit-maximizer
-
-- TR is now given by: `\(TR = P(Q)*Q\)`
-
-  - Quantity that the monopolist produces impacts the price
+`\(P(Q)\)` in this context is called the inverse demand function
   
+--
 
----
-
-
-count: false
-# Monopoly: Math
-
-Again, the monopolist will still be a profit-maximizer
-
-- TR is now given by: `\(TR = P(Q)*Q\)`
-
-  - Quantity that the monopolist produces impacts the price
-  - `\(P(Q)\)` _is_ the inverse demand function
-  
-
----
-
-
-
-
-count: false
-# Monopoly: Math
-
-Again, the monopolist will still be a profit-maximizer
-
-- TR is now given by: `\(TR = P(Q)*Q\)`
-
-  - Quantity that the monopolist produces impacts the price
-  - `\(P(Q)\)` _is_ the inverse demand function (what you are used to seeing for demand)
-  
-
----
-
-
-
-
-count: false
-# Monopoly: Math
-
-Again, the monopolist will still be a profit-maximizer
-
-- TR is now given by: `\(TR = P(Q)*Q\)`
-
-  - Quantity that the monopolist produces impacts the price
-  - `\(P(Q)\)` _is_ the inverse demand function (what you are used to seeing for demand)
-
-
-__Profit is given by__
+.hi[Profit is given by:]
 
 `\begin{align*}
 \pi(Q) = P(Q)*Q - TC(Q)
@@ -641,34 +348,19 @@ __Profit is given by__
 
 
 ---
-
-
-
-
-
-# Monopoly: Profit Maxing
+# Rental market model: Monopoly
 
 Profit Maximization gives us the familiar `\(\frac{\Delta \pi(Q)}{\Delta Q} = 0\)`
 
-
----
-
-
-
-count: false
-# Monopoly: Profit Maxing
-
-Profit Maximization gives us the familiar `\(\frac{\Delta \pi(Q)}{\Delta Q} = 0\)`
+--
 
 `\begin{align*}
 \frac{\Delta P(Q)*Q}{\Delta Q} - \frac{\Delta TC(Q)}{\Delta Q} = 0 
 \end{align*}`
   
 ---
-
-
 count: false
-# Monopoly: Profit Maxing
+# Rental market model: Monopoly
 
 Profit Maximization gives us the familiar `\(\frac{\Delta \pi(Q)}{\Delta Q} = 0\)`
 
@@ -677,267 +369,125 @@ Profit Maximization gives us the familiar `\(\frac{\Delta \pi(Q)}{\Delta Q} = 0\
 MR(Q) &amp;= MC(Q)
 \end{align*}`
 
+--
 
-
----
-
-
-
-count: false
-# Monopoly: Profit Maxing
-
-Profit Maximization gives us the familiar `\(\frac{\Delta \pi(Q)}{\Delta Q} = 0\)`
-
-`\begin{align*}
-\frac{\Delta P(Q)*Q}{\Delta Q} - \frac{\Delta TC(Q)}{\Delta Q} &amp;= 0 \\
-MR(Q) &amp;= MC(Q)
-\end{align*}`
-
-__Note__: Now, `\(\frac{\Delta P(Q)*Q}{\Delta Q} \neq P\)`.
-
+.hi[Note:] Now, `\(\frac{\Delta P(Q)*Q}{\Delta Q} \neq P\)`.
 
 ---
+# Simple monopoly example
 
+---
 # Monopoly Graph
+
+--
 
 &lt;img src="11-housing_files/figure-html/m1-1.svg" style="display: block; margin: auto;" /&gt;
 
 ---
-
-
 count: false
 # Monopoly Graph
 
 &lt;img src="11-housing_files/figure-html/m2-1.svg" style="display: block; margin: auto;" /&gt;
 
 ---
-
-
-
-
 count: false
 # Monopoly Graph
 
 &lt;img src="11-housing_files/figure-html/m3-1.svg" style="display: block; margin: auto;" /&gt;
 
 ---
+class: inverse, middle, center
+# Rental markets model
 
-class: inverse, middle
-# Checklist
-
-.pull-left[
-
-1) .hi[Introduction] ✅
-
-
-
-2) .hi[Two Models] ✅
-
-  - Competitive Model
-  - Monopoly Model
-
-
-]
-
-
-.pull-right[
-
-3) .hi.purple[Cross-City Variation] 
-
-
-4) .hi.purple[Two Policies]
-]
+.hi-white[How to model a rental market across multiple cities?]
 
 ---
-
-
 # Rents Across Cities
 
-__Key Question:__
+.hi[Key question:] What causes rental curves to vary across cities?
+
+--
   
-- What causes rental curves to vary across cities? (both in intercept and slope)
-  
-In general, supply curves across cities are impacted by: local construction costs, land available for development, and land-use regulations
+Supply curves across cities are impacted by: local construction costs, land available for development, and land-use regulations
 
 --
 
-- .hi[Local construction costs]: shifts .pink[intercept] (labor is more expensive for all firms in one area vs another)
+.hi[Local construction costs]: shifts intercept (labor is more expensive for all firms in one area vs another)
 
-- .hi.purple[Land available for development] and .hi.purple[land use regulations]: slope (changes __marginal cost__) of developing land. .qa[Why?]
+.hii[Land available for development] and .hi-gold[land use regulations:] slope (changes in the marginal cost) of developing land. 
 
 --
 
+.center[.hi[Why?]]
+
+--
 
 .qa[A]: Less land available to develop `\(\rightarrow\)` .hi[oppurtunity cost of developing increases] for each next plot of land. Prices get bid up faster. Similar intuition with land-use regulations
 
-
-
 ---
-
-
-
 # Urban Housing Supply Curves
 
 &lt;img src="11-housing_files/figure-html/supply1-1.svg" style="display: block; margin: auto;" /&gt;
 
 ---
-
-
-
-
 # Urban Housing Supply Curves
 
 &lt;img src="11-housing_files/figure-html/supply2-1.svg" style="display: block; margin: auto;" /&gt;
 
- - .hi[pink]: lower construction cost (lower intercept)
+ .hi-pink[pink]: lower construction cost (lower intercept)
 
 
 ---
-
-
-
-
-
 # Urban Housing Supply Curves
 
 &lt;img src="11-housing_files/figure-html/supply3-1.svg" style="display: block; margin: auto;" /&gt;
 
 
-- __black__: higher land use regs or less available land for development
-
-
----
-
-
-
-class: inverse, middle
-# Checklist
-
-.pull-left[
-
-1) .hi[Introduction] ✅
-
-
-
-2) .hi[Two Models] ✅
-
-  - Competitive Model
-  - Monopoly Model
-
-]
-
-
-
-
-.pull-right[
-
-3) .hi[Cross-City Variation] ✅
-
-
-4) .hi.purple[Two Policies]
-]
+__Black__: higher land use regs or less available land for development
 
 ---
 # Two Policies
 
 - We will focus on two policies:
 
+.hi[(i).] Rent Control
 
+.hi[(ii).] Land-use restrictions
 
----
-count: false
-# Two Policies
-
-- We will focus on two policies:
-
-1) Rent Control
-
----
-count: false
-# Two Policies
-
-- We will focus on two policies:
-
-1) Rent Control
-
-2) Land-Use Restrictions (you are familiar with these already)
+--
 
 - We will also look at how these could interact
 
 ---
-# Rent Control
-
-__Defn__ Rent Control: A _price ceiling_ set on rental units
-
-  - Price Ceiling: Max allowed price on the market
-
+class: inverse, middle, center
+# Rent control
 
 ---
-count: false
-# Rent Control
+# Rent control
 
-__Defn__ Rent Control: A _price ceiling_ set on rental units
+.ul[.hi[Definition:]] .hii[Rent Control:]
 
-  - Price Ceiling: Max allowed price on the market
+&gt; A _price ceiling_ set on rental units
 
+--
+
+.hi[Price Ceiling:] Max allowed price on the market
+
+--
 
 Brief History (US):
 
-  - Started around WW1. Expanded during WWII
+- Started around WW1. Expanded during WWII
   
----
-count: false
-# Rent Control
+--
 
-__Defn__ Rent Control: A _price ceiling_ set on rental units
+- 1970: Nixon puts 90-day freeze on prices to combat inflation
 
-  - Price Ceiling: Max allowed price on the market
+--
 
-
-Brief History (US):
-
-  - Started around WW1. Expanded during WWII
-  
-  - 1970: Nixon puts 90-day freeze on prices to combat inflation
-
----
-count: false
-# Rent Control
-
-__Defn__ Rent Control: A _price ceiling_ set on rental units
-
-  - Price Ceiling: Max allowed price on the market
-
-
-Brief History (US):
-
-  - Started around WW1. Expanded during WWII
-  
-  - 1970: Nixon puts 90-day freeze on prices to combat inflation
-  
-  - _Mostly_ a .hi[place based policy]. 
-  
-  
----
-count: false
-# Rent Control
-
-__Defn__ Rent Control: A _price ceiling_ set on rental units
-
-  - Price Ceiling: Max allowed price on the market
-
-
-Brief History (US):
-
-  - Started around WW1. Expanded during WWII
-  
-  - 1970: Nixon puts 90-day freeze on prices to combat inflation
-  
-  - _Mostly_ a .hi[place based policy]. 
-  
-    - SF, NY, LA, Oakland, DC, Berkeley, West Hollywood
-    
-    - Oregon: first state to have .pink[state-wide rent control]
+- _Mostly_ a .hi[place based policy]. 
+  - SF, NY, LA, Oakland, DC, Berkeley, West Hollywood
+  - Oregon: first state to have .pink[state-wide rent control]
 
 ---
 # Rent Control 
@@ -948,55 +498,28 @@ Brief History (US):
 ---
 # Rent Control in Oregon
 
-- In 2019: Oregon passes .hi[state-wide] rent control 
+In 2019: Oregon passes .hi[state-wide] rent control 
 
+--
 
+Limits annual rent increases to inflation + 7% (inflation is usually 2-3%)
 
----
-count: false
-# Rent Control in Oregon
+--
 
-- In 2019: Oregon passes .hi[state-wide] rent control 
+If tenants leave on their .hi[own-accord], landlords can increase rent without limit
 
-- Limits annual rent increases to inflation + 7% (inflation is usually 2-3%)
+--
 
-
-
----
-count: false
-# Rent Control in Oregon
-
-- In 2019: Oregon passes .hi[state-wide] rent control 
-
-- Limits annual rent increases to inflation + 7% (inflation is usually 2-3%)
-
-- If tenants leave on their .pink[own accord], landlords can .purple[increase rent] without limit
-
+.center[.hi[Question:] Are the ramifications from state-wide rent-control different than local rent control?]
 
 ---
-
-
-
-count: false
-# Rent Control in Oregon
-
-- In 2019: Oregon passes .hi[state-wide] rent control 
-
-- Limits annual rent increases to inflation + 7% (inflation is usually 2-3%)
-
-- If tenants leave on their .pink[own accord], landlords can .purple[increase rent] without limit
-
-.hi[Question]: Are the ramifications from state-wide rent-control different than local rent control? Why?
-
-
+class: inverse, middle, center
+# Land Use Restrictions
 
 ---
 # Land Use Restrictions
 
 Land use restrictions limit what one can do with developable land. Examples:
-
-
-
 
 
 ---
@@ -1307,7 +830,7 @@ A fair comparison? Maybe concerned that those living in apartments built before 
 __Moral of the story__: Yes, in SF:
 
 .pull-left[
-![](figures/too_damn_high.jp)
+![](figures/too_damn_high.jpg)
 ]
 
 
@@ -1317,7 +840,7 @@ count: false
 
 __Moral of the story__: Yes, in SF:
 
-![](figures/too_damn_high.jp)
+![](figures/too_damn_high.jpg)
 
 ]
 
@@ -1331,7 +854,7 @@ count: false
 
 __Moral of the story__: Yes, in SF:
 
-![](figures/too_damn_high.jp)
+![](figures/too_damn_high.jpg)
 
 .pull-right[
   - Are rent controls the best fix? 
@@ -1344,7 +867,7 @@ count: false
 
 __Moral of the story__: Yes, in SF:
 
-![](figures/too_damn_high.jp)
+![](figures/too_damn_high.jpg)
 
 
 .pull-right[

@@ -22,3 +22,14 @@ magrittr
 knitr
 tufte
 emo
+ggrepel
+sf
+hrbrthemes
+lwgeom
+maps
+mapdata
+spData
+leaflet
+huxtable
+janitor
+tidycensus

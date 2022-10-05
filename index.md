@@ -5,10 +5,10 @@ Public slide repository for EC330: Urban Economics and Regional Studies by Andre
 Course material links:
   - [Syllabus](syllabus/syllabus.pdf)
   - Problem sets
-	- [PS01](problem-sets/ps01/ps01.pdf)
-	- [PS02](problem-sets/ps02/ps02.pdf),
-	- [PS03](problem-sets/ps03/ps03.pdf), [PS03-whitespace](problem-sets/ps03/ps03-whitespace.pdf) (for more whitespace)
-	- [PS04](problem-sets/ps04/ps04.pdf)
+	- [PS01](problem-sets/ps01/ps01x.pdf)
+	- [PS02](problem-sets/ps02/ps02x.pdf),
+	- [PS03](problem-sets/ps03/ps03x.pdf), [PS03-whitespace](problem-sets/ps03/ps03-whitespacex.pdf) (for more whitespace)
+	- [PS04](problem-sets/ps04/ps04x.pdf)
   - TotC Rubric (not posted yet)
   - External resources
 	- [Triumph of the Cities](http://www.smart-city.institute/library/book/triumph_of_the_city.pdf)
